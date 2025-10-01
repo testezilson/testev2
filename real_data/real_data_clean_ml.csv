@@ -1,0 +1,390 @@
+league,t1,t2,top_t1,jung_t1,mid_t1,adc_t1,sup_t1,top_t2,jung_t2,mid_t2,adc_t2,sup_t2,total_kills,bet_value
+LPL,For The Win Esports,Odivelas Sports Club,Gwen,Pantheon,Hwei,Varus,Rell,Zac,Taliyah,Sion,Jhin,Janna,35,36.5
+LPL,For The Win Esports,Odivelas Sports Club,Shen,Naafiri,Orianna,Jinx,Lulu,Cho'Gath,Gragas,Yasuo,Corki,Bard,22,36.5
+LCK,Gen.G,DRX,Jayce,Xin Zhao,Ahri,Lucian,Braum,Yorick,Trundle,Ryze,Varus,Rell,29,25.5
+LCK,Gen.G,DRX,Gnar,Poppy,Viktor,Senna,Gragas,Gwen,Nocturne,Galio,Tristana,Alistar,32,25.5
+LCP,Team Secret Whales,Chiefs Esports Club,Sion,Xin Zhao,Taliyah,Varus,Nautilus,Rumble,Vi,Ahri,Kai'Sa,Neeko,26,24.5
+LCP,Team Secret Whales,Chiefs Esports Club,Renekton,Nidalee,Corki,Miss Fortune,Leona,Jayce,Viego,Aurora,Ezreal,Rell,19,24.5
+TCL,BoostGate Esports,ULF Esports,Rumble,Kha'Zix,Galio,Miss Fortune,Rell,Gwen,Xin Zhao,Taliyah,Jhin,Leona,29,32.5
+TCL,BoostGate Esports,ULF Esports,Shen,Pantheon,Annie,Ezreal,Bard,Yorick,Naafiri,Hwei,Kalista,Renata Glasc,37,32.5
+NACL,Winthrop University,Near Airport,Gwen,Vi,Annie,Senna,Rakan,Gragas,Xin Zhao,Galio,Lucian,Milio,18,27.5
+NACL,Winthrop University,Near Airport,Gnar,Lillia,Corki,Jhin,Alistar,Yone,Sejuani,Anivia,Jinx,Bard,24,27.5
+LTA N,FlyQuest,Shopify Rebellion,Ornn,Pantheon,Galio,Varus,Alistar,Rumble,Naafiri,Annie,Jhin,Braum,25,27.5
+LTA N,FlyQuest,Shopify Rebellion,Yorick,Skarner,Azir,Ezreal,Leona,Mordekaiser,Xin Zhao,Taliyah,Senna,Rell,45,27.5
+LEC,Karmine Corp,Movistar KOI,Rumble,Xin Zhao,Sylas,Ezreal,Rakan,Galio,Vi,Ahri,Xayah,Rell,30,27.5
+LEC,Karmine Corp,Movistar KOI,Ambessa,Sejuani,Yone,Kalista,Leona,Jax,Pantheon,Akali,Kai'Sa,Neeko,36,27.5
+LPL,Weibo Gaming,ThunderTalk Gaming,Sion,Xin Zhao,Taliyah,Xayah,Rakan,Yorick,Pantheon,Ahri,Ezreal,Alistar,27,29.5
+LPL,Weibo Gaming,ThunderTalk Gaming,Renekton,Naafiri,Sylas,Lucian,Nami,K'Sante,Wukong,Galio,Miss Fortune,Neeko,27,29.5
+VCS,Saigon Secret,GenZ Gaming,Ambessa,Xin Zhao,Taliyah,Varus,Nautilus,Jayce,Naafiri,Sylas,Jhin,Neeko,52,35.5
+LFL,Gentle Mates,BK ROG Esports,Rumble,Xin Zhao,Ahri,Ezreal,Rakan,Ambessa,Naafiri,Galio,Senna,Nautilus,19,28.5
+LFL,Gentle Mates,BK ROG Esports,Gwen,Maokai,Corki,Lucian,Braum,Kennen,Wukong,Orianna,Miss Fortune,Rell,13,28.5
+EBL,Partizan Sangal,SPIKE Syndicate,Sion,Xin Zhao,Aurora,Varus,Rakan,Aatrox,Trundle,Ahri,Jhin,Alistar,29,33.5
+EBL,Partizan Sangal,SPIKE Syndicate,Gnar,Sejuani,Azir,Miss Fortune,Leona,Ambessa,Maokai,Taliyah,Kai'Sa,Rell,29,33.5
+VCS,GenZ Gaming,SN CyberCore Esports,Gnar,Pantheon,Ahri,Varus,Alistar,Gwen,Xin Zhao,Taliyah,Miss Fortune,Rell,25,35.5
+VCS,GenZ Gaming,SN CyberCore Esports,Rumble,Wukong,Corki,Senna,Braum,Galio,Kindred,Ryze,Xayah,Nautilus,31,35.5
+TCL,Misa Esports,BoostGate Esports,Aatrox,Xin Zhao,Taliyah,Senna,Nautilus,Gwen,Zed,Galio,Corki,Rell,58,36.5
+TCL,Misa Esports,BoostGate Esports,Rumble,Naafiri,Azir,Kai'Sa,Braum,Ornn,Viego,Ahri,Ezreal,Leona,30,36.5
+LPL,Top Esports,FunPlus Phoenix,Ornn,Vi,Taliyah,Lucian,Nami,Sion,Pantheon,Sylas,Kalista,Renata Glasc,31,32.5
+LPL,Top Esports,FunPlus Phoenix,Yorick,Lee Sin,Ryze,Xayah,Rakan,Jax,Xin Zhao,Akali,Corki,Nautilus,27,32.5
+LCP,Team Secret Whales,TALON,Renekton,Pantheon,Ahri,Xayah,Rakan,Yorick,Skarner,Sylas,Senna,Alistar,22,25.5
+LCP,Team Secret Whales,TALON,Rumble,Maokai,Corki,Lucian,Nami,Gwen,Wukong,Ryze,Kalista,Neeko,19,25.5
+CD,RED Academy,Vivo Keyd Stars Academy,Ambessa,Xin Zhao,Ahri,Ezreal,Braum,Camille,Vi,Taliyah,Senna,Nautilus,25,29.5
+CD,RED Academy,Vivo Keyd Stars Academy,Rumble,Naafiri,Orianna,Xayah,Rakan,Jayce,Sejuani,Akali,Jhin,Rell,39,29.5
+VCS,SN CyberCore Esports,Never Give Up,Gwen,Vi,Ahri,Senna,Braum,Rumble,Xin Zhao,Annie,Jhin,Bard,37,32.5
+VCS,SN CyberCore Esports,Never Give Up,Sion,Wukong,Orianna,Kai'Sa,Neeko,Jayce,Naafiri,Galio,Sivir,Rell,28,32.5
+LPL,FunPlus Phoenix,Invictus Gaming,Rumble,Pantheon,Ryze,Xayah,Rakan,Galio,Xin Zhao,Azir,Kalista,Renata Glasc,31,32.5
+LPL,FunPlus Phoenix,Invictus Gaming,Gwen,Naafiri,Taliyah,Senna,Nautilus,Aurora,Vi,Sylas,Lucian,Braum,42,32.5
+VCS,SN CyberCore Esports,Saigon Secret,Jayce,Poppy,Azir,Varus,Alistar,K'Sante,Xin Zhao,Ahri,Jhin,Rell,28,35.5
+VCS,SN CyberCore Esports,Saigon Secret,Aurora,Kindred,Galio,Senna,Braum,Rumble,Vi,Orianna,Lucian,Milio,24,35.5
+VCS,Mila Gaming,GenZ Gaming,Jayce,Vi,Ahri,Kai'Sa,Leona,Gwen,Xin Zhao,Sylas,Ezreal,Poppy,46,35.5
+VCS,Mila Gaming,GenZ Gaming,Jax,Nocturne,Galio,Jhin,Neeko,Ambessa,Wukong,Ryze,Varus,Nautilus,52,35.5
+LJL,QT DIG∞,Burning Core Toyama,Yorick,Xin Zhao,Ahri,Kai'Sa,Nautilus,Sion,Lee Sin,Ryze,Varus,Renata Glasc,31,34.5
+LCP,GAM Esports,Team Secret Whales,Rumble,Maokai,Tristana,Senna,Nautilus,Ambessa,Vi,Taliyah,Kalista,Renata Glasc,32,25.5
+LCP,GAM Esports,Team Secret Whales,Shen,Nocturne,Ahri,Kai'Sa,Neeko,Sion,Xin Zhao,Sylas,Xayah,Rakan,29,25.5
+LTA S,Vivo Keyd Stars,Isurus Estral,Sion,Vi,Azir,Xayah,Rakan,Ambessa,Xin Zhao,Taliyah,Varus,Neeko,20,28.5
+LTA S,Vivo Keyd Stars,Isurus Estral,Rumble,Skarner,Viktor,Miss Fortune,Rell,K'Sante,Wukong,Ryze,Ezreal,Alistar,44,28.5
+LIT,Zena Esports,GMBLERS Esports,K'Sante,Trundle,Taliyah,Xayah,Leona,Gwen,Vi,Orianna,Corki,Braum,34,27.5
+ROL,A One Man Army,Aurora,Rumble,Maokai,Tristana,Smolder,Rakan,Ornn,Vi,Viktor,Sivir,Rell,23,33.5
+NLC,Lundqvist Lightside,DMG Esports,K'Sante,Xin Zhao,Taliyah,Varus,Neeko,Fiora,Wukong,Annie,Sivir,Janna,27,34.5
+NLC,Verdant,Bulldog Esports,Yorick,Jarvan IV,Azir,Caitlyn,Leona,Renekton,Wukong,Aurora,Varus,Alistar,38,31.5
+LIT,Zena Esports,aNc Legends,K'Sante,Trundle,Taliyah,Jhin,Rell,Renekton,Jarvan IV,Aurora,Miss Fortune,Braum,32,29.5
+NLC,Lundqvist Lightside,Los Ratones,Poppy,Trundle,Syndra,Jhin,Rakan,Sejuani,Viego,Akali,Varus,Nautilus,21,34.5
+PRM,Austrian Force willhaben,E WIE EINFACH E-SPORTS,K'Sante,Jarvan IV,Azir,Lucian,Braum,Gnar,Wukong,Annie,Ezreal,Rell,35,33.5
+PRM,Austrian Force willhaben,E WIE EINFACH E-SPORTS,Ornn,Pantheon,Orianna,Xayah,Rakan,Cho'Gath,Kindred,Syndra,Corki,Gragas,21,33.5
+LVP SL,Los Heretics,Veni Vidi Vici,Gwen,Wukong,Orianna,Jhin,Nautilus,Jayce,Maokai,Ryze,Varus,Braum,24,25.5
+LVP SL,Veni Vidi Vici,Ramboot Club,Rumble,Xin Zhao,Azir,Varus,Rell,Jayce,Skarner,Ryze,Jhin,Poppy,44,32.5
+NACL,Dorado Gaming,Supernova,Sion,Wukong,Azir,Caitlyn,Braum,Rumble,Xin Zhao,Taliyah,Xayah,Rell,21,29.5
+NACL,Supernova,CCG Esports,Sion,Xin Zhao,Orianna,Aphelios,Lulu,Aatrox,Wukong,Taliyah,Lucian,Nami,28,29.5
+LPL,Weibo Gaming,FunPlus Phoenix,Jayce,Pantheon,Orianna,Xayah,Rakan,Gwen,Xin Zhao,Taliyah,Ezreal,Nautilus,14,30.5
+LPL,Weibo Gaming,FunPlus Phoenix,Rumble,Sejuani,Yone,Lucian,Taric,Ambessa,Wukong,Aurora,Sivir,Leona,26,30.5
+VCS,Saigon Dino,Never Give Up,Sion,Trundle,Azir,Senna,Tahm Kench,Ambessa,Lee Sin,Taliyah,Sivir,Alistar,13,33.5
+VCS,Saigon Dino,Never Give Up,K'Sante,Naafiri,Ryze,Ezreal,Poppy,Gnar,Wukong,Annie,Kai'Sa,Rakan,33,33.5
+HLL,Actions Per Minute,Team Paradox,Ornn,Naafiri,Taliyah,Varus,Rakan,K'Sante,Nocturne,Hwei,Jhin,Rell,34,35.5
+HLL,Actions Per Minute,Team Paradox,Renekton,Wukong,Aurora,Corki,Leona,Shen,Xin Zhao,Azir,Senna,Nautilus,36,35.5
+PRM,ROSSMANN Centaurs,Berlin International Gaming,Renekton,Nocturne,Orianna,Ashe,Renata Glasc,K'Sante,Vi,Azir,Xayah,Milio,27,33.5
+PRM,ROSSMANN Centaurs,Berlin International Gaming,Aatrox,Wukong,Annie,Corki,Braum,Ambessa,Trundle,Viktor,Jhin,Rell,31,33.5
+AL,Dragons Esports,Fox Gaming,Aatrox,Xin Zhao,Ahri,Xayah,Rakan,Rumble,Wukong,Orianna,Lucian,Renata Glasc,43,35.5
+AL,Dragons Esports,Fox Gaming,Ambessa,Poppy,Viktor,Corki,Neeko,Jax,Vi,Aurora,Aphelios,Bard,28,35.5
+PRM,Eintracht Spandau,TeamOrangeGaming,Rumble,Xin Zhao,Azir,Jhin,Rell,K'Sante,Vi,Kog'Maw,Ezreal,Rakan,43,33.5
+PRM,Eintracht Spandau,TeamOrangeGaming,Gwen,Jarvan IV,Orianna,Sivir,Alistar,Ambessa,Naafiri,Hwei,Corki,Leona,28,33.5
+LPL,Ultra Prime,ThunderTalk Gaming,Sion,Xin Zhao,Taliyah,Ezreal,Braum,Rumble,Vi,Ahri,Smolder,Alistar,19,27.5
+LPL,Ultra Prime,ThunderTalk Gaming,K'Sante,Lee Sin,Annie,Senna,Nautilus,Gnar,Wukong,Aurora,Sivir,Leona,21,27.5
+CD,RED Academy,Vivo Keyd Stars Academy,Rumble,Vi,Taliyah,Corki,Alistar,Sion,Xin Zhao,Aurora,Miss Fortune,Bard,35,29.5
+CD,Corinthians Esports,Los Grandes,Jayce,Wukong,Taliyah,Varus,Rell,Sion,Trundle,Orianna,Yasuo,Alistar,27,27.5
+LCK,Hanwha Life Esports Challengers,OKSavingsBank BRION Challengers,Gwen,Zed,Ahri,Ezreal,Rakan,Jax,Trundle,Taliyah,Xayah,Nautilus,30,28.5
+LCK,Hanwha Life Esports Challengers,OKSavingsBank BRION Challengers,K'Sante,Lee Sin,Azir,Varus,Alistar,Sion,Wukong,Aurora,Kai'Sa,Neeko,27,28.5
+LCK,BNK FEARX Youth,Gen.G Global Academy,K'Sante,Xin Zhao,Azir,Miss Fortune,Rell,Rumble,Maokai,Yone,Lucian,Braum,20,30.5
+LCK,BNK FEARX Youth,Gen.G Global Academy,Ambessa,Jarvan IV,Taliyah,Kai'Sa,Poppy,Sion,Wukong,Aurora,Sivir,Alistar,25,30.5
+PRM,Eintracht Frankfurt,ROSSMANN Centaurs,Rumble,Skarner,Taliyah,Xayah,Rell,Gwen,Vi,Annie,Corki,Pyke,44,32.5
+PRM,Eintracht Frankfurt,ROSSMANN Centaurs,K'Sante,Jarvan IV,Viktor,Varus,Rakan,Jayce,Trundle,Galio,Jhin,Nautilus,41,32.5
+LVP SL,UCAM Esports,ZETA,Sion,Nocturne,Ahri,Xayah,Rakan,Ornn,Vi,Taliyah,Zeri,Rell,33,32.5
+PRM,E WIE EINFACH E-SPORTS,Berlin International Gaming,Sion,Bel'Veth,Taliyah,Xayah,Renata Glasc,Shen,Vi,Orianna,Smolder,Alistar,23,32.5
+PRM,E WIE EINFACH E-SPORTS,Berlin International Gaming,Jax,Wukong,Twisted Fate,Varus,Braum,K'Sante,Viego,Ahri,Sivir,Rakan,30,32.5
+CD,Corinthians Esports,Stellae Gaming,Gwen,Nocturne,Ahri,Miss Fortune,Nautilus,Jayce,Maokai,Taliyah,Ezreal,Rell,28,27.5
+LPL,FunPlus Phoenix,Top Esports,K'Sante,Wukong,Annie,Senna,Alistar,Sion,Xin Zhao,Taliyah,Lucian,Braum,29,31.5
+LPL,FunPlus Phoenix,Top Esports,Rumble,Nocturne,Orianna,Xayah,Rakan,Ornn,Trundle,Akali,Sivir,Karma,30,31.5
+HLL,Gamespace Mediterranean College Esports,Team Paradox,Rumble,Skarner,Orianna,Ezreal,Rell,Jayce,Trundle,Annie,Varus,Alistar,25,36.5
+RL,Orbit Anonymo Esports,DOCISK,Dr. Mundo,Trundle,Aurora,Corki,Neeko,Sion,Ivern,Azir,Jhin,Rell,28,33.5
+RL,Orbit Anonymo Esports,DOCISK,Aatrox,Xin Zhao,Ambessa,Ziggs,Poppy,Renekton,Wukong,Viktor,Miss Fortune,Rakan,51,33.5
+LVP SL,Veni Vidi Vici,Guasones,Jayce,Vi,Orianna,Senna,Alistar,Gwen,Xin Zhao,Lux,Jhin,Bard,21,32.5
+NLC,DMG Esports,Bulldog Esports,Ornn,Pantheon,Syndra,Caitlyn,Leona,Volibear,Xin Zhao,Hwei,Corki,Braum,54,33.5
+NLC,Verdant,Los Ratones,Sion,Nidalee,Azir,Kog'Maw,Braum,Aatrox,Maokai,Corki,Ziggs,Alistar,32,32.5
+LCK,Dplus KIA Challengers,OKSavingsBank BRION Challengers,Aurora,Wukong,Annie,Varus,Poppy,Rumble,Trundle,Viktor,Jhin,Rell,22,28.5
+LCK,Dplus KIA Challengers,OKSavingsBank BRION Challengers,K'Sante,Maokai,Azir,Xayah,Rakan,Ambessa,Jarvan IV,Ahri,Senna,Alistar,35,28.5
+LPL,JD Gaming,Invictus Gaming,K'Sante,Wukong,Azir,Sivir,Alistar,Rumble,Trundle,Sylas,Senna,Braum,22,30.5
+LPL,JD Gaming,Invictus Gaming,Renekton,Naafiri,Annie,Varus,Rell,Aurora,Jarvan IV,Viktor,Jhin,Rakan,39,30.5
+LPL,ThunderTalk Gaming,LNG Esports,Sion,Xin Zhao,Taliyah,Sivir,Alistar,Ambessa,Jarvan IV,Aurora,Varus,Neeko,41,27.5
+LPL,ThunderTalk Gaming,LNG Esports,Rumble,Vi,Azir,Lucian,Braum,Ornn,Nocturne,Annie,Xayah,Rakan,22,27.5
+NLC,Venomcrest Esports,Rich Gang,Rumble,Xin Zhao,Azir,Xayah,Rakan,K'Sante,Vi,Taliyah,Jhin,Leona,34,33.5
+EBL,SPIKE Syndicate,Partizan Sangal,Renekton,Maokai,Viktor,Varus,Alistar,Ornn,Trundle,Aurora,Jhin,Nautilus,27,34.5
+EBL,SPIKE Syndicate,Partizan Sangal,K'Sante,Skarner,Azir,Zeri,Rakan,Gnar,Xin Zhao,Taliyah,Sivir,Neeko,36,34.5
+LVP SL,Los Heretics,Barça eSports,Aatrox,Dr. Mundo,Ryze,Varus,Bard,Gnar,Maokai,Aurora,Ezreal,Leona,18,32.5
+LIT,aNc Legends,Colossal Gaming,Renekton,Vi,Annie,Kai'Sa,Neeko,Gragas,Xin Zhao,Galio,Sivir,Rell,25,27.5
+NLC,NORD Esports,Rich Gang,Gwen,Wukong,Taliyah,Smolder,Rell,Jax,Vi,Syndra,Xayah,Rakan,21,31.5
+LVP SL,Veni Vidi Vici,GiantX,Sion,Trundle,Syndra,Xayah,Rakan,Ambessa,Xin Zhao,Akali,Kai'Sa,Rell,32,32.5
+NACL,Supernova,Luminosity Gaming,Rumble,Wukong,Viktor,Corki,Rakan,Galio,Trundle,Orianna,Lucian,Rell,30,27.5
+NACL,Conviction,Vancouver Impact,Gwen,Maokai,Corki,Jhin,Rakan,Gragas,Trundle,Cassiopeia,Varus,Karma,32,29.5
+TCL,The Forbidden Five,Beşiktaş Esports,Gwen,Sejuani,Yone,Ezreal,Rell,Rumble,Xin Zhao,Smolder,Jhin,Leona,29,29.5
+RL,Forsaken,DOCISK,Ambessa,Wukong,Aurora,Lucian,Nami,Gwen,Vi,Azir,Corki,Leona,34,32.5
+RL,Forsaken,DOCISK,Ornn,Zed,Ahri,Jhin,Neeko,Cho'Gath,Jarvan IV,Viktor,Sivir,Karma,38,32.5
+LFL,Gentle Mates,GameWard,K'Sante,Trundle,Taliyah,Varus,Rell,Ambessa,Wukong,Syndra,Jhin,Nautilus,27,27.5
+LFL,Gentle Mates,GameWard,Sion,Lee Sin,LeBlanc,Kalista,Neeko,Cho'Gath,Xin Zhao,Orianna,Corki,Lulu,21,27.5
+LIT,Zena Esports,Colossal Gaming,Sion,Wukong,Taliyah,Ezreal,Bard,K'Sante,Xin Zhao,Orianna,Jinx,Nautilus,40,28.5
+EBL,BeFive,Crvena zvezda Esports,Renekton,Nidalee,Azir,Xayah,Nautilus,Ornn,Trundle,Syndra,Miss Fortune,Rakan,30,35.5
+EBL,BeFive,Crvena zvezda Esports,Ambessa,Vi,Akali,Kai'Sa,Neeko,Sett,Wukong,Orianna,Ezreal,Karma,50,35.5
+LIT,aNc Legends,GMBLERS Esports,Gwen,Xin Zhao,Aurora,Aphelios,Nautilus,Jayce,Poppy,Taliyah,Kai'Sa,Leona,25,27.5
+NACL,Conviction,Winthrop University,Renekton,Vi,Taliyah,Jhin,Rakan,Sion,Xin Zhao,Azir,Vayne,Karma,29,30.5
+NACL,Citadel Gaming,CCG Esports,Rumble,Trundle,Ryze,Miss Fortune,Neeko,Galio,Wukong,Taliyah,Jhin,Karma,26,31.5
+LPL,Ninjas in Pyjamas,Ultra Prime,Gwen,Xin Zhao,Taliyah,Kai'Sa,Rell,Rumble,Wukong,Ryze,Ezreal,Braum,18,28.5
+LPL,Ninjas in Pyjamas,Ultra Prime,Sion,Jarvan IV,Ekko,Varus,Alistar,Yorick,Lee Sin,Viktor,Jhin,Rakan,11,28.5
+HLL,Team Insidious,Team Paradox,Gwen,Xin Zhao,Taliyah,Corki,Poppy,Ambessa,Jarvan IV,Orianna,Senna,Rell,43,36.5
+HLL,Team Insidious,Team Paradox,Jayce,Sejuani,Aurora,Jhin,Leona,Rumble,Maokai,Yone,Ezreal,Nautilus,40,36.5
+LCP,Chiefs Esports Club,Fukuoka SoftBank HAWKS gaming,K'Sante,Wukong,Aurora,Varus,Rell,Sion,Trundle,Ryze,Lucian,Braum,19,26.5
+LCP,Chiefs Esports Club,Fukuoka SoftBank HAWKS gaming,Jax,Ivern,Azir,Xayah,Rakan,Ambessa,Maokai,Yone,Sivir,Nautilus,24,26.5
+PRM,Austrian Force willhaben,ROSSMANN Centaurs,Rumble,Wukong,Azir,Xayah,Rakan,Gwen,Sejuani,Yone,Senna,Leona,32,30.5
+PRM,Austrian Force willhaben,ROSSMANN Centaurs,Sion,Nocturne,Orianna,Sivir,Alistar,Aatrox,Vi,Ahri,Smolder,Nautilus,48,30.5
+LTA N,Team Liquid,100 Thieves,Rumble,Vi,Taliyah,Kai'Sa,Rell,Sion,Trundle,Orianna,Lucian,Braum,24,28.5
+LTA N,Team Liquid,100 Thieves,K'Sante,Jarvan IV,Viktor,Senna,Nautilus,Renekton,Wukong,Annie,Ezreal,Alistar,37,28.5
+PCS,Frank Esports,CTBC Flying Oyster Academy,Jayce,Jarvan IV,Annie,Varus,Elise,Sion,Trundle,Azir,Sivir,Braum,23,36.5
+PCS,Frank Esports,CTBC Flying Oyster Academy,Gwen,Wukong,Ahri,Ezreal,Alistar,Jax,Skarner,Ryze,Kai'Sa,Renata Glasc,33,36.5
+LPL,Top Esports,JD Gaming,Ornn,Trundle,Azir,Sivir,Alistar,Rumble,Maokai,Yone,Zeri,Rakan,25,28.5
+LPL,Top Esports,JD Gaming,K'Sante,Jarvan IV,Taliyah,Aphelios,Nautilus,Gnar,Xin Zhao,Viktor,Kai'Sa,Rell,27,28.5
+CD,Flamengo MDL,Los Grandes,Rumble,Wukong,Sylas,Xayah,Rakan,K'Sante,Vi,Ahri,Kai'Sa,Rell,31,31.5
+CD,Rise Gaming,Corinthians Esports,Rumble,Trundle,Taliyah,Sivir,Rakan,Ambessa,Vi,Ahri,Jinx,Nautilus,29,30.5
+CD,Stellae Gaming,KaBuM! Ilha das Lendas,Gwen,Jarvan IV,Azir,Sivir,Bard,Jax,Evelynn,Orianna,Jhin,Alistar,29,30.5
+CD,Vivo Keyd Stars Academy,e-Champ Gaming,Gwen,Pantheon,Viktor,Jhin,Rell,Rumble,Xin Zhao,Ryze,Varus,Alistar,32,31.5
+CD,RED Academy,Alpha7 Esports,Ambessa,Ivern,Aurora,Sivir,Alistar,Aatrox,Trundle,Orianna,Kai'Sa,Poppy,31,31.5
+LCK,OKSavingsBank BRION Challengers,Nongshim Esports Academy,Ambessa,Vi,Ahri,Corki,Rell,Renekton,Xin Zhao,Taliyah,Lucian,Braum,23,28.5
+LCK,OKSavingsBank BRION Challengers,Nongshim Esports Academy,Gwen,Nocturne,Twisted Fate,Kai'Sa,Alistar,Rumble,Trundle,Aurora,Jhin,Bard,31,28.5
+LPL,FunPlus Phoenix,Invictus Gaming,Gwen,Wukong,Taliyah,Corki,Rell,Aurora,Vi,Orianna,Senna,Alistar,43,28.5
+LPL,FunPlus Phoenix,Invictus Gaming,Ornn,Poppy,Viktor,Ezreal,Karma,Rumble,Xin Zhao,Sylas,Lucian,Thresh,36,28.5
+RL,Zero Tenacity,DOCISK,Naafiri,Trundle,Aurora,Lucian,Nautilus,Sion,Poppy,Azir,Varus,Renata Glasc,50,29.5
+RL,Zero Tenacity,DOCISK,Jax,Wukong,Ryze,Ezreal,Alistar,Ambessa,Gwen,Ahri,Corki,Rakan,42,29.5
+LVP SL,Veni Vidi Vici,ZETA,Gwen,Jarvan IV,Azir,Kai'Sa,Rell,Jayce,Vi,Hwei,Smolder,Poppy,32,30.5
+CD,Los Grandes,RED Academy,Aurora,Nocturne,Taliyah,Kai'Sa,Nautilus,Yorick,Sejuani,Azir,Jhin,Poppy,29,31.5
+CD,Corinthians Esports,Vivo Keyd Stars Academy,Ambessa,Jarvan IV,Azir,Jhin,Rakan,Gwen,Pantheon,Annie,Varus,Alistar,20,31.5
+LCK,Gen.G Global Academy,DRX Challengers,Gwen,Jarvan IV,Orianna,Lucian,Braum,Ambessa,Wukong,Taliyah,Senna,Leona,33,29.5
+LCK,Gen.G Global Academy,DRX Challengers,Galio,Nocturne,Azir,Corki,Rell,Rumble,Xin Zhao,Sylas,Sivir,Renata Glasc,51,29.5
+LCK,DRX,Dplus KIA,Gwen,Wukong,Taliyah,Miss Fortune,Rell,Aurora,Xin Zhao,Twisted Fate,Ezreal,Braum,25,26.5
+LCK,DRX,Dplus KIA,Ambessa,Skarner,Azir,Sivir,Karma,Rumble,Sejuani,Yone,Corki,Neeko,19,26.5
+LVP SL,Guasones,Los Heretics,Ambessa,Xin Zhao,Aurora,Varus,Bard,Jayce,Vi,Mel,Ziggs,Rell,36,26.5
+NLC,NORD Esports,Bulldog Esports,Rumble,Wukong,Ahri,Zeri,Alistar,Sion,Jarvan IV,Aurora,Lucian,Nami,29,33.5
+NLC,NORD Esports,Bulldog Esports,Aatrox,Trundle,Annie,Smolder,Rakan,Yorick,Nocturne,Taliyah,Jhin,Neeko,27,33.5
+LVP SL,Barça eSports,Veni Vidi Vici,Ambessa,Vi,Hwei,Smolder,Bard,Ornn,Jarvan IV,Ziggs,Xayah,Nautilus,36,30.5
+LVP SL,Veni Vidi Vici,ZETA,Ambessa,Vi,Hwei,Smolder,Bard,Ornn,Jarvan IV,Ziggs,Xayah,Nautilus,36,30.5
+CD,RED Academy,e-Champ Gaming,Rumble,Sejuani,Yone,Lucian,Rell,Ambessa,Naafiri,Taliyah,Corki,Nautilus,35,31.5
+CD,Stellae Gaming,Los Grandes,Sion,Pantheon,Azir,Jhin,Rell,Camille,Vi,Akali,Senna,Nautilus,35,30.5
+CD,Alpha7 Esports,Corinthians Esports,Rumble,Sejuani,Yone,Ezreal,Bard,Shen,Naafiri,Orianna,Kai'Sa,Neeko,25,31.5
+LCK,BNK FEARX,OKSavingsBank BRION,Rumble,Wukong,Azir,Sivir,Braum,Gwen,Vi,Ahri,Lucian,Rell,36,25.5
+LCK,BNK FEARX,OKSavingsBank BRION,Ornn,Xin Zhao,Akali,Corki,Poppy,Renekton,Nocturne,Orianna,Kai'Sa,Alistar,43,25.5
+LCK,OKSavingsBank BRION Challengers,DN Freecs Challengers,Rumble,Wukong,Taliyah,Sivir,Rell,Aurora,Vi,Ahri,Kai'Sa,Neeko,23,29.5
+LCK,OKSavingsBank BRION Challengers,DN Freecs Challengers,K'Sante,Xin Zhao,Viktor,Lucian,Braum,Sion,Jarvan IV,Ryze,Xayah,Rakan,28,29.5
+LCK,Nongshim RedForce,Hanwha Life Esports,Gwen,Xin Zhao,Ryze,Corki,Rell,Aurora,Wukong,Orianna,Lucian,Braum,30,28.5
+LCK,Nongshim RedForce,Hanwha Life Esports,Sylas,Trundle,Azir,Sivir,Leona,Rumble,Sejuani,Yone,Kai'Sa,Bard,39,28.5
+LPL,Weibo Gaming,Bilibili Gaming,Sion,Xin Zhao,Orianna,Corki,Rell,Ambessa,Wukong,Taliyah,Xayah,Rakan,43,27.5
+LPL,Weibo Gaming,Bilibili Gaming,Rumble,Nocturne,Azir,Jhin,Leona,Ornn,Jarvan IV,Ziggs,Varus,Nautilus,28,27.5
+NLC,Rich Gang,DMG Esports,K'Sante,Wukong,Taliyah,Ezreal,Leona,Yorick,Trundle,Azir,Jhin,Alistar,20,32.5
+NLC,Rich Gang,DMG Esports,Rumble,Vi,Ahri,Sivir,Nautilus,Sion,Jarvan IV,Aurora,Varus,Rell,36,32.5
+LFL,BK ROG Esports,GameWard,Aatrox,Trundle,Azir,Corki,Pyke,Yorick,Maokai,Ziggs,Jhin,Soraka,24,26.5
+LFL,BK ROG Esports,GameWard,Gragas,Wukong,Ryze,Senna,Nautilus,Ambessa,Xin Zhao,Akali,Ezreal,Rell,25,26.5
+ROL,mCon esports,Senshi eSports,Fiora,Maokai,Ziggs,Corki,Neeko,Gwen,Wukong,Ahri,Varus,Bard,32,35.5
+ROL,mCon esports,Senshi eSports,Renekton,Viego,Azir,Jhin,Rell,Jax,Trundle,Taliyah,Sivir,Leona,50,35.5
+ROL,ZennIT,A One Man Army,Shen,Wukong,Aurora,Tristana,Leona,Ambessa,Xin Zhao,Viktor,Corki,Nautilus,31,31.5
+ROL,ZennIT,A One Man Army,Rumble,Maokai,Smolder,Sivir,Soraka,Sion,Viego,Yone,Ziggs,Alistar,18,31.5
+NLC,Verdant,Venomcrest Esports,Gwen,Xin Zhao,Taliyah,Senna,Rell,Gragas,Wukong,Galio,Sivir,Taric,19,32.5
+NLC,Verdant,Venomcrest Esports,Aurora,Vi,Akali,Corki,Alistar,Ambessa,Sejuani,Orianna,Jhin,Rakan,27,32.5
+NACL,Dorado Gaming,Winthrop University,Aurora,Jarvan IV,Taliyah,Xayah,Leona,Ambessa,Xin Zhao,Azir,Kai'Sa,Rell,49,28.5
+NACL,Vancouver Impact,CCG Esports,K'Sante,Nocturne,Orianna,Lucian,Rell,Rumble,Trundle,Taliyah,Yunara,Thresh,48,28.5
+LJL,Burning Core Toyama,Yang Yang Gaming,K'Sante,Zed,Aurora,Xayah,Alistar,Rumble,Sejuani,Irelia,Lucian,Rell,36,35.5
+LJL,Burning Core Toyama,Yang Yang Gaming,Sion,Xin Zhao,Renekton,Hwei,Rakan,Fiora,Diana,Yasuo,Seraphine,Nami,45,35.5
+LCK,Dplus KIA,DN Freecs,Sion,Vi,Taliyah,Varus,Karma,Cho'Gath,Poppy,Azir,Sivir,Rell,29,25.5
+LCK,Dplus KIA,DN Freecs,Rumble,Trundle,Viktor,Lucian,Braum,Aurora,Zed,Ryze,Senna,Galio,33,25.5
+LPL,Invictus Gaming,Weibo Gaming,Sion,Pantheon,Orianna,Kai'Sa,Rell,Ambessa,Xin Zhao,Taliyah,Sivir,Alistar,25,28.5
+LPL,Invictus Gaming,Weibo Gaming,Gwen,Vi,Viktor,Kalista,Renata Glasc,Aurora,Maokai,Yone,Xayah,Rakan,41,28.5
+TCL,ULF Esports,The Forbidden Five,Gwen,Nocturne,Orianna,Lucian,Braum,Ambessa,Trundle,Annie,Varus,Bard,29,32.5
+TCL,Papara SuperMassive,Beşiktaş Esports,Rumble,Maokai,Yone,Ezreal,Nautilus,Gwen,Xin Zhao,Taliyah,Jhin,Rell,40,31.5
+LFL,Gentle Mates,Galions,Sion,Trundle,Azir,Senna,Nautilus,Ambessa,Wukong,Aurora,Lucian,Rell,30,28.5
+LFL,Gentle Mates,Galions,K'Sante,Xin Zhao,Orianna,Ezreal,Karma,Ornn,Skarner,Ryze,Kai'Sa,Alistar,35,28.5
+NACL,Winthrop University,CCG Esports,Camille,Xin Zhao,Ahri,Varus,Rakan,Rumble,Jarvan IV,Orianna,Jhin,Alistar,45,29.5
+LCK,T1,Hanwha Life Esports,Gwen,Jarvan IV,Galio,Jhin,Bard,Ambessa,Wukong,Orianna,Lucian,Rakan,21,30.5
+LCK,T1,Hanwha Life Esports,Aatrox,Maokai,Azir,Senna,Alistar,K'Sante,Trundle,Taliyah,Sivir,Neeko,40,30.5
+LPL,ThunderTalk Gaming,LGD Gaming,Galio,Trundle,Aurora,Kai'Sa,Alistar,Rumble,Maokai,Yone,Jhin,Rakan,26,28.5
+LPL,ThunderTalk Gaming,LGD Gaming,Poppy,Xin Zhao,Orianna,Miss Fortune,Nautilus,Ambessa,Wukong,Ryze,Caitlyn,Braum,35,28.5
+LCK,BNK FEARX,DRX,Aatrox,Nocturne,Orianna,Varus,Rell,Rumble,Trundle,Ahri,Jhin,Alistar,44,26.5
+LCK,BNK FEARX,DRX,Renekton,Xin Zhao,Viktor,Senna,Nautilus,K'Sante,Vi,Ryze,Corki,Neeko,49,26.5
+LPL,LNG Esports,Ultra Prime,Rumble,Viego,Taliyah,Senna,Nautilus,Gwen,Wukong,Annie,Smolder,Braum,30,25.5
+LPL,LNG Esports,Ultra Prime,Gragas,Trundle,Viktor,Lucian,Nami,Renekton,Vi,Orianna,Xayah,Rakan,27,25.5
+LEC,Team Heretics,Fnatic,K'Sante,Nocturne,Taliyah,Yunara,Rell,Rumble,Wukong,Orianna,Kai'Sa,Alistar,25,28.5
+LEC,Team Heretics,Fnatic,Camille,Sejuani,Ryze,Aphelios,Thresh,Ambessa,Pantheon,Annie,Lucian,Braum,29,28.5
+LCK,DN Freecs,OKSavingsBank BRION,Rumble,Trundle,Ryze,Corki,Rell,Aurora,Wukong,Cassiopeia,Varus,Poppy,21,24.5
+LCK,DN Freecs,OKSavingsBank BRION,Sion,Xin Zhao,Azir,Senna,Nautilus,Cho'Gath,Maokai,Yone,Kai'Sa,Neeko,45,24.5
+LPL,LNG Esports,EDward Gaming,Gwen,Trundle,Taliyah,Senna,Braum,Aurora,Wukong,Annie,Corki,Alistar,22,25.5
+LPL,LNG Esports,EDward Gaming,Renekton,Pantheon,Orianna,Jhin,Rell,K'Sante,Xin Zhao,Viktor,Varus,Poppy,26,25.5
+LCP,GAM Esports,Team Secret Whales,Ornn,Nocturne,Orianna,Kai'Sa,Poppy,Rumble,Trundle,Azir,Sivir,Alistar,18,25.5
+LTA S,Leviatan,Vivo Keyd Stars,Gwen,Trundle,Ryze,Senna,Nautilus,Jax,Wukong,Orianna,Corki,Rell,31,25.5
+LTA S,Leviatan,Vivo Keyd Stars,Ambessa,Vi,Akali,Sivir,Neeko,Rumble,Xin Zhao,Sylas,Jhin,Alistar,36,25.5
+LEC,Team BDS,SK Gaming,Aurora,Wukong,Sylas,Jinx,Rell,Rumble,Trundle,Azir,Corki,Nautilus,20,29.5
+LEC,Team BDS,SK Gaming,Ambessa,Pantheon,Ryze,Kai'Sa,Leona,Jayce,Sejuani,Viktor,Aphelios,Braum,44,29.5
+LEC,GiantX,Karmine Corp,Gwen,Trundle,Orianna,Lucian,Alistar,Jax,Jarvan IV,Ryze,Ezreal,Neeko,35,28.5
+LEC,GiantX,Karmine Corp,Sion,Xin Zhao,Annie,Jinx,Rell,K'Sante,Pantheon,Aurora,Aphelios,Thresh,24,28.5
+LTA S,LOUD,RED Canids,Renekton,Xin Zhao,Orianna,Xayah,Rakan,Yorick,Wukong,Taliyah,Ezreal,Bard,22,27.5
+LTA S,LOUD,RED Canids,Ambessa,Volibear,Aurora,Kai'Sa,Rell,Aatrox,Vi,Annie,Senna,Alistar,13,27.5
+LCK,KT Rolster Challengers,Gen.G Global Academy,Gwen,Xin Zhao,Annie,Jhin,Neeko,Ambessa,Nocturne,Galio,Varus,Nautilus,26,31.5
+LCK,KT Rolster Challengers,Gen.G Global Academy,Rumble,Jarvan IV,Ahri,Jinx,Thresh,Ornn,Kindred,Taliyah,Yunara,Braum,19,31.5
+LEC,SK Gaming,Fnatic,Gwen,Pantheon,Ryze,Kai'Sa,Nautilus,Rumble,Wukong,Orianna,Yunara,Braum,18,29.5
+LEC,SK Gaming,Fnatic,K'Sante,Xin Zhao,Taliyah,Lucian,Rakan,Jayce,Maokai,Yone,Ezreal,Bard,20,29.5
+LEC,GiantX,Team Vitality,Ambessa,Sejuani,Azir,Corki,Rell,K'Sante,Maokai,Ziggs,Lucian,Braum,26,30.5
+LEC,GiantX,Team Vitality,Ornn,Trundle,Viktor,Jhin,Bard,Rumble,Wukong,Orianna,Sivir,Rakan,17,30.5
+LCK,DN Freecs Challengers,Hanwha Life Esports Challengers,Rumble,Jarvan IV,Azir,Jhin,Poppy,Sion,Wukong,Annie,Kai'Sa,Alistar,22,30.5
+LCK,DN Freecs Challengers,Hanwha Life Esports Challengers,Ambessa,Lee Sin,Taliyah,Xayah,Rakan,Renekton,Xin Zhao,Ahri,Sivir,Bard,27,30.5
+LPL,Top Esports,Anyone's Legend,Gwen,Skarner,Azir,Xayah,Rakan,Rumble,Pantheon,Annie,Yunara,Rell,34,30.5
+LPL,Top Esports,Anyone's Legend,Sion,Wukong,Orianna,Kai'Sa,Nautilus,Cho'Gath,Xin Zhao,Viktor,Sivir,Alistar,32,30.5
+LVP SL,Los Heretics,UCAM Esports,Aurora,Xin Zhao,Azir,Jhin,Nautilus,Rumble,Wukong,Syndra,Ezreal,Leona,30,27.5
+CD,e-Champ Gaming,KaBuM! Ilha das Lendas,Gwen,Jarvan IV,Azir,Sivir,Poppy,Jax,Sejuani,Yone,Ziggs,Leona,28,31.5
+CD,Rise Gaming,Stellae Gaming,Ornn,Naafiri,Taliyah,Lucian,Nautilus,Rumble,Trundle,Ahri,Kai'Sa,Pyke,28,31.5
+LCK,Hanwha Life Esports,Nongshim RedForce,Rumble,Wukong,Orianna,Xayah,Rakan,Gwen,Xin Zhao,Annie,Yunara,Lulu,32,29.5
+LCK,Hanwha Life Esports,Nongshim RedForce,Jayce,Nocturne,Ryze,Sivir,Shen,K'Sante,Jarvan IV,Taliyah,Kai'Sa,Neeko,35,29.5
+LPL,Bilibili Gaming,JD Gaming,Ornn,Trundle,Galio,Corki,Rell,Rumble,Wukong,Taliyah,Yunara,Renata Glasc,24,30.5
+LPL,Bilibili Gaming,JD Gaming,Renekton,Sejuani,Azir,Kai'Sa,Neeko,K'Sante,Skarner,Ziggs,Xayah,Rakan,24,30.5
+RL,Zero Tenacity,Back2TheGame,Ornn,Trundle,Viktor,Yunara,Karma,Yone,Wukong,Orianna,Kai'Sa,Rakan,29,34.5
+RL,Zero Tenacity,Back2TheGame,Gwen,Vi,Annie,Sivir,Alistar,Jax,Sejuani,Aurora,Ezreal,Leona,34,34.5
+LFL,Joblife,Ici Japon Corp. Esport,K'Sante,Xin Zhao,Orianna,Ezreal,Nautilus,Rumble,Wukong,Viktor,Kai'Sa,Rell,21,31.5
+LFL,Joblife,Ici Japon Corp. Esport,Sion,Nocturne,Taliyah,Xayah,Rakan,Aatrox,Trundle,Annie,Corki,Bard,34,31.5
+NACL,Dorado Gaming,Blue Otter,Rumble,Xin Zhao,Taliyah,Corki,Rakan,Aurora,Jarvan IV,Ziggs,Kai'Sa,Alistar,36,30.5
+NACL,Conviction,CCG Esports,Gwen,Pantheon,Taliyah,Vayne,Braum,K'Sante,Trundle,Syndra,Kai'Sa,Neeko,33,33.5
+NACL,Winthrop University,Luminosity Gaming,Gnar,Wukong,Galio,Lucian,Milio,Sion,Vi,Ahri,Kai'Sa,Neeko,33,32.5
+LCK,Gen.G,T1,Gwen,Wukong,Annie,Sivir,Rell,Aurora,Trundle,Ryze,Jhin,Bard,21,30.5
+LCK,Gen.G,T1,Ambessa,Xin Zhao,Galio,Yunara,Rakan,Rumble,Jarvan IV,Orianna,Lucian,Nami,32,30.5
+LVP SL,UCAM Esports,LUA Gaming,Gnar,Maokai,Azir,Corki,Rell,Sion,Trundle,Syndra,Jhin,Alistar,27,32.5
+LVP SL,UCAM Esports,LUA Gaming,Ornn,Xin Zhao,Taliyah,Ezreal,Rakan,Renekton,Sejuani,Yone,Varus,Leona,40,32.5
+LFL,Solary,Ici Japon Corp. Esport,Rumble,Xin Zhao,Orianna,Lucian,Braum,Galio,Wukong,Azir,Yunara,Rakan,22,33.5
+LFL,Solary,Ici Japon Corp. Esport,Sion,Trundle,Viktor,Miss Fortune,Nautilus,Aatrox,Maokai,Corki,Kai'Sa,Leona,26,33.5
+ROL,Once Upon A Team,A One Man Army,Gwen,Wukong,Azir,Ashe,Milio,Sett,Trundle,Ekko,Yunara,Rakan,19,31.5
+ROL,Once Upon A Team,A One Man Army,K'Sante,Maokai,Yone,Miss Fortune,Poppy,Swain,Jarvan IV,Orianna,Smolder,Rell,20,31.5
+LFL,Karmine Corp Blue,Gentle Mates,Gwen,Trundle,Azir,Senna,Alistar,Aurora,Wukong,Taliyah,Jhin,Bard,25,30.5
+LFL,Karmine Corp Blue,Gentle Mates,Rumble,Xin Zhao,Galio,Yunara,Rell,K'Sante,Nocturne,Orianna,Kai'Sa,Rakan,32,30.5
+LFL,Galions,GameWard,Gwen,Pantheon,Ryze,Miss Fortune,Bard,Gragas,Xin Zhao,Taliyah,Yunara,Lulu,20,32.5
+LFL,Galions,GameWard,Aatrox,Wukong,Azir,Senna,Leona,Yorick,Sejuani,Aurelion Sol,Lucian,Nautilus,23,32.5
+TCL,Bushido Wildcats,The Forbidden Five,Ambessa,Trundle,Aurelion Sol,Kai'Sa,Leona,Jayce,Wukong,Orianna,Yunara,Rakan,31,28.5
+NACL,Conviction,Supernova,Jax,Maokai,Cassiopeia,Riven,Rakan,Jayce,Trundle,Ryze,Corki,Rell,25,33.5
+LCP,MGN Vikings Esports,Chiefs Esports Club,Jax,Xin Zhao,Taliyah,Yunara,Braum,Ambessa,Wukong,Annie,Lucian,Alistar,16,26.5
+LCP,MGN Vikings Esports,Chiefs Esports Club,K'Sante,Maokai,Yone,Kai'Sa,Neeko,Udyr,Jarvan IV,Aurora,Ezreal,Karma,17,26.5
+LCP,Fukuoka SoftBank HAWKS gaming,DetonatioN FocusMe,Sion,Xin Zhao,Azir,Senna,Alistar,K'Sante,Wukong,Taliyah,Yunara,Nautilus,25,25.5
+LCP,Fukuoka SoftBank HAWKS gaming,DetonatioN FocusMe,Rumble,Nocturne,Orianna,Corki,Galio,Ornn,Vi,Aurora,Lucian,Braum,31,25.5
+LCP,CTBC Flying Oyster,Team Secret Whales,Aurora,Wukong,Galio,Kai'Sa,Rell,Sion,Pantheon,Annie,Yunara,Braum,25,26.5
+LCP,CTBC Flying Oyster,Team Secret Whales,Jax,Trundle,Ziggs,Jhin,Bard,Ambessa,Xin Zhao,Azir,Varus,Neeko,31,26.5
+LCK,OKSavingsBank BRION Challengers,Hanwha Life Esports Challengers,Gwen,Trundle,Galio,Sivir,Poppy,Ambessa,Zed,Annie,Corki,Alistar,26,31.5
+LCK,OKSavingsBank BRION Challengers,Hanwha Life Esports Challengers,Rumble,Vi,Yone,Kog'Maw,Lulu,Sion,Wukong,Ryze,Tristana,Rell,43,31.5
+CD,KaBuM! Ilha das Lendas,Corinthians Esports,Ambessa,Xin Zhao,Ryze,Yunara,Bard,Aatrox,Sejuani,Azir,Kai'Sa,Neeko,21,28.5
+RL,Zero Tenacity,Orbit Anonymo Esports,Jax,Wukong,Viktor,Corki,Bard,Fiora,Trundle,Taliyah,Ezreal,Rakan,30,34.5
+RL,Zero Tenacity,Orbit Anonymo Esports,Sion,Vi,Orianna,Lucian,Braum,Ambessa,Nocturne,Aurora,Ziggs,Rell,27,34.5
+LVP SL,UCAM Esports,Ramboot Club,Gwen,Xin Zhao,Ryze,Kai'Sa,Alistar,Ambessa,Wukong,Syndra,Ezreal,Bard,40,31.5
+LVP SL,UCAM Esports,Ramboot Club,Rumble,Skarner,Taliyah,Yunara,Renata Glasc,Sion,Vi,Ahri,Corki,Rell,38,31.5
+ROL,ZennIT,Senshi eSports,Yorick,Lee Sin,Ryze,Yunara,Neeko,Jax,Trundle,Annie,Caitlyn,Fiddlesticks,35,33.5
+ROL,ZennIT,Senshi eSports,Swain,Vi,Taliyah,Jhin,Alistar,Sion,Maokai,Ziggs,Corki,Renata Glasc,34,33.5
+LPL,JD Gaming,Top Esports,Ornn,Pantheon,Aurora,Varus,Rakan,Rumble,Jarvan IV,Orianna,Jhin,Alistar,30,30.5
+LPL,JD Gaming,Top Esports,K'Sante,Xin Zhao,Azir,Lucian,Braum,Sion,Skarner,Taliyah,Sivir,Rell,35,30.5
+NLC,Venomcrest Esports,DMG Esports,K'Sante,Gwen,Ryze,Yunara,Nautilus,Gragas,Wukong,Taliyah,Jinx,Braum,31,34.5
+NLC,Venomcrest Esports,DMG Esports,Sion,Viego,Aurora,Lucian,Rell,Ambessa,Vi,Galio,Corki,Nami,41,34.5
+LPL,Keypulse Esports,FlameHard,Sion,Trundle,Orianna,Kai'Sa,Rakan,Gwen,Wukong,Akali,Ezreal,Karma,29,33.5
+LPL,GTZ Esports,Odivelas Sports Club,K'Sante,Lillia,Hwei,Kai'Sa,Rell,Sion,Volibear,Viktor,Zeri,Alistar,35,35.5
+LJL,QT DIG∞,Burning Core Toyama,Sion,Pantheon,Taliyah,Tristana,Nautilus,K'Sante,Vi,Aurora,Yunara,Alistar,35,33.5
+LJL,QT DIG∞,Burning Core Toyama,Gwen,Nocturne,Orianna,Xayah,Rakan,Gragas,Xin Zhao,Viego,Ezreal,Hwei,30,33.5
+LPL,FunPlus Phoenix,Team WE,Rumble,Sejuani,Yone,Zeri,Rell,Ornn,Trundle,Aurora,Corki,Alistar,31,30.5
+LPL,FunPlus Phoenix,Team WE,Ambessa,Skarner,Taliyah,Jhin,Nautilus,Yorick,Pantheon,Annie,Kai'Sa,Neeko,28,30.5
+PRM,Berlin International Gaming,TeamOrangeGaming,Rumble,Jarvan IV,Syndra,Kai'Sa,Alistar,Aurora,Trundle,Ekko,Yunara,Bard,33,33.5
+PRM,Berlin International Gaming,TeamOrangeGaming,Sion,Pantheon,Orianna,Xayah,Rell,Ambessa,Wukong,Annie,Sivir,Braum,34,33.5
+ROL,Myth Esports,mCon esports,Renekton,Jarvan IV,Azir,Miss Fortune,Braum,Poppy,Pantheon,Taliyah,Jhin,Nautilus,41,34.5
+ROL,Myth Esports,mCon esports,Darius,Wukong,Orianna,Kog'Maw,Leona,Jax,Lee Sin,Galio,Hwei,Alistar,39,34.5
+LFL,GameWard,Karmine Corp Blue,Ornn,Wukong,Akali,Aphelios,Lulu,Ambessa,Trundle,Orianna,Yunara,Blitzcrank,17,28.5
+LFL,GameWard,Karmine Corp Blue,K'Sante,Pantheon,Aurora,Ezreal,Neeko,Yorick,Xin Zhao,Taliyah,Jhin,Rell,26,28.5
+EBL,Crvena zvezda Esports,Lenovo Legion Honvéd,Gwen,Pantheon,Taliyah,Corki,Rakan,Jax,Trundle,Hwei,Yunara,Lulu,26,34.5
+EBL,Crvena zvezda Esports,Lenovo Legion Honvéd,Aatrox,Xin Zhao,Orianna,Sivir,Alistar,Sion,Wukong,Akali,Kog'Maw,Braum,29,34.5
+LPL,Crusaders,Hurricane of Feathers,Aatrox,Trundle,Viktor,Yunara,Karma,Ornn,Lillia,Lissandra,Sivir,Lulu,29,34.5
+LPL,Team High Ground,ZeroZone Gaming,Ornn,Wukong,Ryze,Yunara,Lulu,Yorick,Viego,Annie,Kog'Maw,Nautilus,23,33.5
+LCK,KT Rolster Challengers,DRX Challengers,Gwen,Vi,Annie,Lucian,Poppy,Ambessa,Wukong,Galio,Jhin,Bard,18,33.5
+LCK,KT Rolster Challengers,DRX Challengers,Jayce,Trundle,Ryze,Yunara,Nautilus,Yorick,Jarvan IV,Taliyah,Aphelios,Lulu,61,33.5
+LCP,PSG Talon,MGN Vikings Esports,Aatrox,Pantheon,Taliyah,Kai'Sa,Neeko,K'Sante,Jarvan IV,Azir,Senna,Nautilus,18,26.5
+TCL,Papara SuperMassive,Bushido Wildcats,Aurora,Vi,Orianna,Jhin,Nautilus,Sion,Xin Zhao,Viktor,Corki,Rell,26,33.5
+LFL,GameWard,Joblife,Sion,Vi,Taliyah,Aphelios,Lulu,Cho'Gath,Xin Zhao,Viktor,Yunara,Nautilus,26,29.5
+LFL,GameWard,Joblife,K'Sante,Trundle,Ryze,Ezreal,Renata Glasc,Ambessa,Nocturne,Aurora,Corki,Bard,25,29.5
+LEC,Team Vitality,Natus Vincere,Rumble,Jarvan IV,Orianna,Xayah,Rakan,Jayce,Pantheon,Viktor,Corki,Bard,30,23.5
+LEC,Team Vitality,Natus Vincere,Sion,Wukong,Ryze,Lucian,Braum,Ambessa,Xin Zhao,Annie,Ziggs,Alistar,16,23.5
+LCK,OKSavingsBank BRION,BNK FearX,Gwen,Wukong,Ahri,Sivir,Rell,Rumble,Xin Zhao,Taliyah,Kai'Sa,Rakan,32,29.5
+LPL,JD Gaming,Bilibili Gaming,Sion,Poppy,Azir,Corki,Rell,Rumble,Skarner,Taliyah,Sivir,Alistar,21,29.5
+LPL,JD Gaming,Bilibili Gaming,Jax,Wukong,Galio,Kai'Sa,Leona,Ambessa,Xin Zhao,Annie,Yunara,Nautilus,23,29.5
+NLC,Los Ratones,Rich Gang,Jax,Pantheon,Azir,Corki,Bard,K'Sante,Wukong,Taliyah,Ezreal,Rell,20,32.5
+NLC,Los Ratones,Rich Gang,Ambessa,Nocturne,Orianna,Zeri,Rakan,Volibear,Jarvan IV,Syndra,Sivir,Lulu,27,32.5
+EBL,Partizan Sangal,Lenovo Legion Honved,Rumble,Trundle,K'Sante,Xayah,Alistar,Ambessa,Wukong,Aurora,Corki,Neeko,44,35.5
+EBL,Partizan Sangal,Lenovo Legion Honved,Jax,Vi,Ryze,Yunara,Soraka,Gragas,Xin Zhao,Brand,Aphelios,Tahm Kench,27,35.5
+LPL,Keypulse Esports,The Otter Side,Aurora,Wukong,Galio,Zeri,Rakan,Sion,Xin Zhao,Syndra,Kai'Sa,Rell,21,33.5
+LPL,Keypulse Esports,The Otter Side,Gragas,Trundle,Orianna,Aphelios,Nautilus,Ambessa,Pantheon,Akali,Jhin,Karma,35,33.5
+LCK,Dplus KIA,DRX,Ornn,Wukong,Orianna,Corki,Leona,Rumble,Pantheon,Annie,Kai'Sa,Rell,28,28.5
+LFL,Ici Japon Corp. Esport,Team BDS.A,Renekton,Skarner,Aurora,Yunara,Bard,Jax,Wukong,Orianna,Jinx,Rakan,31,30.5
+LFL,Ici Japon Corp. Esport,Team BDS.A,Rumble,Pantheon,Annie,Corki,Rell,Ornn,Trundle,Viktor,Kai'Sa,Nautilus,28,30.5
+LPL,Evolve Esports,ZeroZone Gaming,Sion,Wukong,Azir,Lucian,Braum,Gwen,Jarvan IV,Taliyah,Yunara,Rell,38,33.5
+LPL,Evolve Esports,ZeroZone Gaming,Olaf,Pantheon,Viktor,Sivir,Rakan,Cho'Gath,Rek'Sai,Syndra,Xayah,Alistar,55,33.5
+LFL,Gentle Mates,BK ROG Esports,Gwen,Poppy,Ziggs,Corki,Rell,Jax,Wukong,Azir,Jhin,Nautilus,12,29.5
+LFL,Gentle Mates,BK ROG Esports,Aatrox,Trundle,Orianna,Jinx,Neeko,Kled,Vi,Ahri,Yunara,Rakan,27,29.5
+LPL,NORTHS FURY,Hurricane of Feathers,Ornn,Fiddlesticks,Viktor,Jhin,Viego,Mordekaiser,Qiyana,Syndra,Jinx,Renata Glasc,39,35.5
+LPL,NORTHS FURY,Hurricane of Feathers,Renekton,Jarvan IV,Sylas,Yunara,Lulu,Pantheon,Poppy,Neeko,Ashe,Bard,60,35.5
+NACL,Dorado Gaming,Luminosity Gaming,Renekton,Maokai,Corki,Ezreal,Rakan,K'Sante,Sylas,Azir,Sivir,Braum,22,32.5
+NACL,Dorado Gaming,Luminosity Gaming,Yorick,Kindred,Galio,Yunara,Lulu,Ambessa,Sejuani,Taliyah,Smolder,Alistar,13,32.5
+LPL,Team WE,Top Esports,Rumble,Skarner,Azir,Kai'Sa,Neeko,Gwen,Wukong,Taliyah,Xayah,Rakan,35,30.5
+LPL,Team WE,Top Esports,Sion,Jarvan IV,Ryze,Lucian,Braum,K'Sante,Xin Zhao,Aurora,Corki,Alistar,38,30.5
+LCK,BNK FearX,Dplus KIA,Rumble,Pantheon,Galio,Varus,Alistar,Gwen,Xin Zhao,Annie,Jhin,Rakan,53,31.5
+LCK,BNK FearX,Dplus KIA,K'Sante,Nocturne,Taliyah,Kai'Sa,Neeko,Sion,Jarvan IV,Ahri,Zeri,Lulu,44,31.5
+LPL,Anyone's Legend,JD Gaming,Aurora,Pantheon,Orianna,Xayah,Rakan,Rumble,Trundle,Galio,Yunara,Alistar,28,29.5
+LPL,Anyone's Legend,JD Gaming,Ambessa,Vi,Taliyah,Sivir,Braum,Sion,Jarvan IV,Azir,Corki,Rell,28,29.5
+EBL,Partizan Sangal,Crvena Zvezda,Gwen,Trundle,Azir,Yunara,Bard,K'Sante,Wukong,Orianna,Jinx,Thresh,35,34.5
+EBL,Partizan Sangal,Crvena Zvezda,Jax,Lee Sin,Ryze,Corki,Leona,Ambessa,Xin Zhao,Annie,Ezreal,Rell,42,34.5
+LEC,SK Gaming,G2 Esports,Gwen,Trundle,Ryze,Corki,Nautilus,Jax,Jarvan IV,Annie,Xayah,Rakan,19,22.5
+LEC,SK Gaming,G2 Esports,Sion,Dr. Mundo,Orianna,Kai'Sa,Neeko,Yone,Poppy,Akali,Ezreal,Bard,14,22.5
+LEC,Team BDS,Team Heretics,Sion,Wukong,Orianna,Kai'Sa,Rell,Gwen,Sejuani,Jayce,Corki,Nautilus,23,24.5
+LEC,Team BDS,Team Heretics,Rumble,Xin Zhao,Sylas,Xayah,Rakan,Aurora,Vi,Taliyah,Aphelios,Alistar,32,24.5
+LCK,BNK FearX.Y,DRX.Ch,Rumble,Jax,Azir,Jhin,Bard,Galio,Xin Zhao,Ziggs,Varus,Nautilus,37,32.5
+LCK,BNK FearX.Y,DRX.Ch,Ambessa,Vi,Taliyah,Xayah,Rakan,Gwen,Trundle,Ryze,Sivir,Alistar,22,32.5
+LEC,Team Vitality,Movistar KOI,Aurora,Pantheon,Ryze,Corki,Rakan,Rumble,Poppy,Orianna,Yunara,Rell,26,25.5
+LEC,Team Vitality,Movistar KOI,Gwen,Wukong,Yone,Sivir,Braum,Yasuo,Xin Zhao,Twisted Fate,Xayah,Nautilus,26,25.5
+LEC,Natus Vincere,GIANTX,Olaf,Wukong,Akali,Jhin,Rell,Sion,Xin Zhao,Annie,Varus,Gragas,32,25.5
+LEC,Natus Vincere,GIANTX,Jayce,Sejuani,Azir,Xayah,Rakan,Aurora,Maokai,Yone,Ezreal,Nautilus,21,25.5
+ROL,Once Upon A Team,Senshi eSports,Ambessa,Pantheon,Azir,Sivir,Bard,Sion,Trundle,Viktor,Varus,Karma,18,34.5
+ROL,Once Upon A Team,Senshi eSports,Yorick,Sejuani,Taliyah,Kai'Sa,Nautilus,Gragas,Maokai,Corki,Lucian,Braum,25,34.5
+ROL,Myth Esports,Jormungang,Gnar,Poppy,Hwei,Sivir,Alistar,Sion,Wukong,Orianna,Aphelios,Nautilus,31,34.5
+TCL,Besiktas Esports,Papara SuperMassive,Ambessa,Wukong,Taliyah,Ezreal,Rell,Gwen,Olaf,Azir,Corki,Braum,22,35.5
+TCL,Dark Passage,Misa Esports,Ambessa,Trundle,Azir,Yunara,Alistar,Darius,Wukong,Ryze,Aphelios,Rell,38,32.5
+LFL,BK ROG Esports,Karmine Corp Blue,Gwen,Jarvan IV,Orianna,Jinx,Alistar,Aurora,Pantheon,Azir,Yunara,Bard,32,29.5
+LFL,BK ROG Esports,Karmine Corp Blue,Rumble,Viego,Ryze,Corki,Rell,Ornn,Wukong,Viktor,Aphelios,Nautilus,39,29.5
+LCK,Dplus KIA,OKSavingsBank BRION,Aurora,Jarvan IV,Annie,Corki,Bard,Ambessa,Pantheon,Orianna,Sivir,Rell,28,29.5
+LCK,Dplus KIA,OKSavingsBank BRION,Yorick,Wukong,Taliyah,Zeri,Rakan,Rumble,Trundle,Ahri,Jhin,Nautilus,25,29.5
+LIT,Zena Esports,aNc Legends,Rumble,Pantheon,Orianna,Yunara,Alistar,Ambessa,Xin Zhao,Taliyah,Aphelios,Rell,29,33.5
+LIT,Zena Esports,aNc Legends,Mordekaiser,Jarvan IV,Corki,Varus,Karma,Sion,Zac,Smolder,Jhin,Bard,37,33.5
+LPL,Grow uP Esports,FlameHard,Sion,Poppy,Azir,Smolder,Nautilus,Cho'Gath,Wukong,Taliyah,Yunara,Lulu,40,32.5
+LPL,Grow uP Esports,FlameHard,Aurora,Shaco,Orianna,Kai'Sa,Alistar,Ornn,Pantheon,Viktor,Xayah,Leona,46,32.5
+LCK,BNK FearX,DRX,Rumble,Wukong,Ryze,Sivir,Neeko,Gwen,Xin Zhao,Orianna,Corki,Bard,28,32.5
+LCK,BNK FearX,DRX,Jax,Pantheon,Akali,Xayah,Rakan,Ambessa,Jarvan IV,Taliyah,Lucian,Braum,30,32.5
+LPL,Crusaders,GTZ Esports,Ambessa,Zyra,Syndra,Corki,Rakan,K'Sante,Xin Zhao,Orianna,Yunara,Leona,24,34.5
+LPL,Crusaders,GTZ Esports,Sion,Sylas,Jayce,Tristana,Lulu,Gnar,Shaco,Hwei,Jhin,Rell,30,34.5
+LPL,Rage Bait e-Sports,NORTHS FURY,Illaoi,Viego,Mel,Kai'Sa,Braum,Ornn,Skarner,Syndra,Sivir,Bard,47,35.5
+LPL,Rage Bait e-Sports,NORTHS FURY,Sion,Maokai,Hwei,Jinx,Thresh,Camille,Rek'Sai,Neeko,Jhin,Nautilus,59,35.5
+NLC,Los Ratones,Verdant,Cho'Gath,Wukong,Syndra,Xayah,Rakan,Ambessa,Pantheon,Taliyah,Corki,Bard,37,30.5
+NLC,Los Ratones,Verdant,Renekton,Poppy,Orianna,Smolder,Alistar,Volibear,Jarvan IV,Galio,Jinx,Braum,34,30.5
+TCL,Besiktas Esports,Dark Passage,K'Sante,Wukong,Orianna,Kai'Sa,Alistar,Mordekaiser,Pantheon,Taliyah,Xayah,Rell,34,29.5
+TCL,Besiktas Esports,Dark Passage,Gnar,Qiyana,Ziggs,Yunara,Nautilus,Gragas,Lee Sin,Azir,Jinx,Leona,19,29.5
+LCK,DRX,OKSavingsBank BRION,Gwen,Pantheon,Annie,Lucian,Braum,Ambessa,Jarvan IV,Orianna,Corki,Rakan,28,29.5
+LCK,DRX,OKSavingsBank BRION,Rumble,Vi,Ahri,Zeri,Nautilus,Galio,Xin Zhao,Azir,Sivir,Leona,21,29.5
+LPL,Team WE,EDward Gaming,Rumble,Vi,Aurora,Yunara,Rell,Ornn,Xin Zhao,Ryze,Kai'Sa,Neeko,40,30.5
+LPL,Team WE,EDward Gaming,Yorick,Trundle,Taliyah,Varus,Leona,Jax,Jarvan IV,Ahri,Sivir,Nautilus,34,30.5
+LPL,Diver,Crusaders,Sion,Nocturne,Neeko,Jinx,Rell,Ambessa,Trundle,Azir,Corki,Alistar,30,33.5
+LPL,Diver,Crusaders,Rumble,Singed,Qiyana,Sivir,Yuumi,Jayce,Zyra,Galio,Jhin,Blitzcrank,31,33.5
+LPL,Papo Secos,Leões Porto Salvo,Aatrox,Pantheon,Ryze,Kai'Sa,Nautilus,Fiora,Wukong,Aurora,Corki,Rell,40,35.5
+LPL,Papo Secos,Leões Porto Salvo,Jax,Xin Zhao,Syndra,Varus,Zyra,Malphite,Vi,Ahri,Jinx,Lulu,36,35.5
+LPL,Rage Bait e-Sports,Grow uP Esports,Dr. Mundo,Jarvan IV,Hwei,Zeri,Leona,Trundle,Maokai,Mel,Sivir,Thresh,50,38.5
+LPL,Rage Bait e-Sports,Grow uP Esports,Cho'Gath,Wukong,Taliyah,Jinx,Rell,Renekton,Lillia,Galio,Jhin,Rakan,41,38.5
+LCK,Hanwha Life Esports.Ch,Nongshim.EA,Ambessa,Vi,Orianna,Sivir,Alistar,Gwen,Xin Zhao,Ryze,Corki,Rakan,51,30.5
+LCK,Hanwha Life Esports.Ch,Nongshim.EA,Rumble,Zed,Ahri,Varus,Neeko,Galio,Wukong,Akali,Jhin,Karma,25,30.5
+LCK,Gen.G.GA,Nongshim.EA,K'Sante,Vi,Orianna,Corki,Alistar,Rumble,Xin Zhao,Galio,Sivir,Renata Glasc,22,31.5
+LCK,Gen.G.GA,Nongshim.EA,Aatrox,Poppy,Taliyah,Kai'Sa,Neeko,Ambessa,Nocturne,Ahri,Lucian,Rakan,33,31.5
+LCK,DN Freecs.Ch,Hanwha Life Esports.Ch,Ambessa,Xin Zhao,Orianna,Xayah,Rakan,Sion,Wukong,Annie,Corki,Neeko,32,30.5
+LCK,DN Freecs.Ch,Hanwha Life Esports.Ch,Rumble,Jarvan IV,Ryze,Zeri,Lulu,Galio,Nocturne,Aurora,Sivir,Alistar,55,30.5
+EBL,Crvena Zvezda,Lenovo Legion Honved,Sion,Pantheon,Morgana,Yunara,Rell,Ambessa,Wukong,Taliyah,Corki,Alistar,36,41.5
+EBL,Crvena Zvezda,Lenovo Legion Honved,Aatrox,Jarvan IV,Ryze,Varus,Nautilus,Renekton,Vi,LeBlanc,Sivir,Thresh,41,41.5
+LFL,Vitality.Bee,BK ROG Esports,Rumble,Jarvan IV,Galio,Yunara,Rell,Ambessa,Trundle,Orianna,Kai'Sa,Rakan,17,31.5
+LFL,Vitality.Bee,BK ROG Esports,Aatrox,Qiyana,LeBlanc,Varus,Neeko,Renekton,Poppy,Taliyah,Sivir,Nautilus,22,31.5
+EBL,Partizan Sangal,SPIKE Syndicate,Aatrox,Vi,Orianna,Kai'Sa,Rakan,Sion,Wukong,Galio,Corki,Alistar,15,33.5
+EBL,Partizan Sangal,SPIKE Syndicate,Ornn,Nautilus,Azir,Zeri,Milio,Jayce,Maokai,Yone,Tristana,Rell,24,33.5
+LPL,FlameHard,GTZ Esports,K'Sante,Vi,Orianna,Smolder,Rell,Sion,Trundle,Hwei,Yunara,Alistar,22,35.5
+LPL,FlameHard,GTZ Esports,Aurora,Lillia,Jayce,Senna,Bard,Rumble,Wukong,Syndra,Ezreal,Rakan,26,35.5
+NACL,Conviction,Luminosity Gaming,Rumble,Vi,Kog'Maw,Ezreal,Rakan,Ornn,Poppy,Orianna,Corki,Nami,30,28.5
+NACL,Conviction,Luminosity Gaming,Jax,Sejuani,Azir,Senna,Nautilus,Gragas,Skarner,Ziggs,Yunara,Rell,22,28.5
+EBL,Lenovo Legion Honved,SPIKE Syndicate,Ornn,Kha'Zix,Neeko,Corki,Leona,Rumble,Trundle,Morgana,Miss Fortune,Rakan,30,37.5
+LCK,Nongshim RedForce,Dplus KIA,Ambessa,Pantheon,Akali,Corki,Neeko,Rumble,Jarvan IV,Orianna,Ezreal,Karma,36,29.5
+LCK,Nongshim RedForce,Dplus KIA,Yorick,Xin Zhao,Annie,Sivir,Alistar,Aurora,Lee Sin,Ryze,Zeri,Rakan,29,29.5
+LPL,Anyone's Legend,Weibo Gaming,Sion,Poppy,Orianna,Sivir,Lulu,Gwen,Wukong,Taliyah,Yunara,Leona,22,29.5
+LPL,Anyone's Legend,Weibo Gaming,Renekton,Qiyana,Annie,Xayah,Rakan,Ornn,Zed,Galio,Kai'Sa,Alistar,32,29.5
+LEC,Movistar KOI,Fnatic,Varus,Xin Zhao,Galio,Xayah,Rakan,Aurora,Wukong,Orianna,Sivir,Rell,32,25.5
+LEC,Movistar KOI,Fnatic,Akali,Pantheon,Yone,Tristana,Alistar,Gwen,Vi,Corki,Kai'Sa,Neeko,30,25.5
+LCK,T1,Dplus KIA,Aatrox,Pantheon,Galio,Jhin,Neeko,Ambessa,Jarvan IV,Orianna,Ezreal,Bard,24,28.5
+LCK,T1,Dplus KIA,Jax,Wukong,Ryze,Corki,Rell,K'Sante,Qiyana,Twisted Fate,Yunara,Alistar,25,28.5
+LFL,Gentle Mates,Vitality.Bee,Rumble,Jarvan IV,Annie,Xayah,Rakan,Varus,Pantheon,Galio,Corki,Rell,25,29.5
+LFL,Gentle Mates,Vitality.Bee,Sion,Wukong,Syndra,Senna,Braum,Yorick,Xin Zhao,Ryze,Kai'Sa,Alistar,32,29.5
