@@ -6,7 +6,7 @@ Integração completa com modelo UNDER/OVER e sistema de debug robusto
 
 import streamlit as st
 import requests
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 import pytz
 import pandas as pd
 import numpy as np
@@ -467,10 +467,12 @@ class LoLPredictor:
 
         # Adicionar impactos individuais
         for i, impact in enumerate(team1_impacts):
-            features[f"impact_t1_pos{i + 1}"] = impact
+            if i < len(positions):
+                features[f"impact_t1_pos{i + 1}"] = impact
 
         for i, impact in enumerate(team2_impacts):
-            features[f"impact_t2_pos{i + 1}"] = impact
+            if i < len(positions):
+                features[f"impact_t2_pos{i + 1}"] = impact
 
         return features
 
@@ -483,92 +485,102 @@ class LoLPredictor:
         league: str,
         bet_line: float,
     ) -> Dict[str, Any]:
-        """Faz predição completa"""
-        if not self.models:
-            return {"error": "Modelo não carregado"}
+        """Faz predição para uma linha de aposta"""
+        try:
+            # Criar features
+            features = self.create_features(
+                blue_team, red_team, team1_name, team2_name, league
+            )
 
-        # Criar features
-        features = self.create_features(
-            blue_team, red_team, team1_name, team2_name, league
-        )
+            # Converter para DataFrame
+            features_df = pd.DataFrame([features])
 
-        # Processar features
-        features_df = pd.DataFrame([features])[self.feature_cols]
-        features_scaled = self.scaler.transform(features_df)
+            # Reordenar colunas conforme o modelo
+            features_df = features_df.reindex(columns=self.feature_cols, fill_value=0)
 
-        # Encontrar modelo para a linha
-        if bet_line not in self.models:
-            bet_line = min(self.models.keys(), key=lambda x: abs(x - bet_line))
+            # Normalizar
+            features_scaled = self.scaler.transform(features_df)
 
-        # Fazer predição
-        prob_under = self.models[bet_line].predict_proba(features_scaled)[0, 1]
-        prob_over = 1 - prob_under
+            # Encontrar linha mais próxima
+            available_lines = list(self.models.keys())
+            bet_line = min(available_lines, key=lambda x: abs(x - bet_line))
 
-        # Classificar apostas
-        def classify_probability(prob):
-            if prob >= 0.75:
-                return "EXCELENTE"
-            elif prob >= 0.65:
-                return "MUITO_BOA"
-            elif prob >= 0.55:
-                return "BOA"
-            return None
+            # Fazer predição
+            prob_under = self.models[bet_line].predict_proba(features_scaled)[0, 1]
+            prob_over = 1 - prob_under
 
-        # Analisar recomendações
-        recommendation_under = None
-        recommendation_over = None
+            # Classificar apostas
+            def classify_probability(prob):
+                if prob >= 0.75:
+                    return "EXCELENTE"
+                elif prob >= 0.65:
+                    return "MUITO_BOA"
+                elif prob >= 0.55:
+                    return "BOA"
+                return None
 
-        if prob_under > 0.55:
-            categoria = classify_probability(prob_under)
-            if categoria:
-                winrate = self.winrates[categoria]["UNDER"]
-                roi = (winrate / 100 * 0.83) - ((1 - winrate / 100) * 1.00)
-                recommendation_under = {
-                    "tipo": "UNDER",
-                    "categoria": categoria,
-                    "probabilidade": prob_under,
-                    "winrate_esperado": winrate,
-                    "roi_esperado": roi * 100,
-                }
+            # Analisar recomendações
+            recommendation_under = None
+            recommendation_over = None
 
-        if prob_over > 0.55:
-            categoria = classify_probability(prob_over)
-            if categoria:
-                winrate = self.winrates[categoria]["OVER"]
-                roi = (winrate / 100 * 0.83) - ((1 - winrate / 100) * 1.00)
-                recommendation_over = {
-                    "tipo": "OVER",
-                    "categoria": categoria,
-                    "probabilidade": prob_over,
-                    "winrate_esperado": winrate,
-                    "roi_esperado": roi * 100,
-                }
+            if prob_under > 0.55:
+                categoria = classify_probability(prob_under)
+                if categoria:
+                    winrate = self.winrates[categoria]["UNDER"]
+                    roi = (winrate / 100 * 0.83) - ((1 - winrate / 100) * 1.00)
+                    recommendation_under = {
+                        "tipo": "UNDER",
+                        "categoria": categoria,
+                        "probabilidade": prob_under,
+                        "winrate_esperado": winrate,
+                        "roi_esperado": roi * 100,
+                    }
 
-        # Escolher melhor recomendação
-        best_recommendation = None
-        if recommendation_under and recommendation_over:
-            if (
-                recommendation_under["roi_esperado"]
-                >= recommendation_over["roi_esperado"]
-            ):
+            if prob_over > 0.55:
+                categoria = classify_probability(prob_over)
+                if categoria:
+                    winrate = self.winrates[categoria]["OVER"]
+                    roi = (winrate / 100 * 0.83) - ((1 - winrate / 100) * 1.00)
+                    recommendation_over = {
+                        "tipo": "OVER",
+                        "categoria": categoria,
+                        "probabilidade": prob_over,
+                        "winrate_esperado": winrate,
+                        "roi_esperado": roi * 100,
+                    }
+
+            # Escolher melhor recomendação
+            best_recommendation = None
+            if recommendation_under and recommendation_over:
+                if (
+                    recommendation_under["roi_esperado"]
+                    >= recommendation_over["roi_esperado"]
+                ):
+                    best_recommendation = recommendation_under
+                else:
+                    best_recommendation = recommendation_over
+            elif recommendation_under:
                 best_recommendation = recommendation_under
-            else:
+            elif recommendation_over:
                 best_recommendation = recommendation_over
-        elif recommendation_under:
-            best_recommendation = recommendation_under
-        elif recommendation_over:
-            best_recommendation = recommendation_over
 
-        return {
-            "probabilities": {
-                "under": round(prob_under, 3),
-                "over": round(prob_over, 3),
-            },
-            "recommendation": best_recommendation,
-            "all_options": {"under": recommendation_under, "over": recommendation_over},
-            "features": features,
-            "debug": self.debug_logger.get_summary(),
-        }
+            return {
+                "probabilities": {
+                    "under": round(prob_under, 3),
+                    "over": round(prob_over, 3),
+                },
+                "recommendation": best_recommendation,
+                "all_options": {
+                    "under": recommendation_under,
+                    "over": recommendation_over,
+                },
+                "features": features,
+                "debug": self.debug_logger.get_summary(),
+            }
+
+        except Exception as e:
+            logger.error(f"Erro na predição: {e}")
+            return {"error": str(e)}
 
 
 # Cache do predictor
@@ -578,9 +590,32 @@ def get_predictor():
     return LoLPredictor()
 
 
+def is_likely_live(event):
+    """Detecta se jogo provavelmente está ao vivo mesmo que API não atualize"""
+    start_time_str = event.get("startTime", "")
+    state = event.get("state", "")
+
+    if not start_time_str or state == "completed":
+        return False
+
+    try:
+        start_time = datetime.fromisoformat(start_time_str.replace("Z", "+00:00"))
+        now = datetime.now(timezone.utc)
+
+        # Se passou mais de 15min do horário agendado, provavelmente está ao vivo
+        minutes_since_start = (now - start_time).total_seconds() / 60
+
+        if 15 <= minutes_since_start <= 180:  # Entre 15min e 3h
+            return True
+    except:
+        pass
+
+    return False
+
+
 @st.cache_data(ttl=60)
 def get_schedule():
-    """Busca agenda de jogos da API"""
+    """Busca agenda de jogos da API com detecção de jogos possivelmente ao vivo"""
     url = "https://esports-api.lolesports.com/persisted/gw/getSchedule?hl=en-US"
     headers = {
         "x-api-key": "0TvQnueqKa5mxJntVWt0w4LpLfEkrV1Ta8rQBb9Z",
@@ -593,17 +628,43 @@ def get_schedule():
         data = resp.json()
         events = data.get("data", {}).get("schedule", {}).get("events", [])
 
-        # Ordenar por prioridade (ao vivo > agendado > finalizado)
+        # Filtrar apenas matches com times definidos
+        filtered_events = []
+        for event in events:
+            event_type = event.get("type", "")
+            state = event.get("state", "")
+
+            # Só incluir matches reais (não shows)
+            if event_type == "match":
+                teams = event.get("match", {}).get("teams", [])
+                if len(teams) >= 2:
+                    team1 = teams[0].get("code", teams[0].get("name", "TBD"))
+                    team2 = teams[1].get("code", teams[1].get("name", "TBD"))
+
+                    # Incluir se times estão definidos
+                    if team1 != "TBD" and team2 != "TBD":
+                        # Detectar se provavelmente está ao vivo
+                        if state == "unstarted" and is_likely_live(event):
+                            # Marcar como provável ao vivo
+                            event["likely_live"] = True
+
+                        filtered_events.append(event)
+
+        # Ordenar por prioridade (ao vivo > provável ao vivo > agendado > finalizado)
         def get_priority(event):
             state = event.get("state", "")
+            likely_live = event.get("likely_live", False)
+
             if state == "inProgress":
                 return 0
-            elif state == "unstarted":
+            elif likely_live:
                 return 1
-            else:
+            elif state == "unstarted":
                 return 2
+            else:
+                return 3
 
-        return sorted(events, key=get_priority)
+        return sorted(filtered_events, key=get_priority)
 
     except Exception as e:
         logger.error(f"Erro ao buscar agenda: {e}")
@@ -619,7 +680,8 @@ def get_draft_data(
         if match_id == "N/A" or not str(match_id).isdigit():
             return None, None
 
-        game_id = int(match_id) + game_number
+        # CORREÇÃO: adicionar +1 ao game_number para alinhamento correto
+        game_id = int(match_id) + game_number + 1
         url = f"https://feed.lolesports.com/livestats/v1/window/{game_id}"
 
         response = requests.get(url, timeout=5)
@@ -670,6 +732,7 @@ def format_datetime(start_time: str) -> str:
 def render_game_card(game: Dict[str, Any], index: int):
     """Renderiza card de jogo usando apenas componentes nativos do Streamlit"""
     state = game.get("state", "N/A")
+    likely_live = game.get("likely_live", False)
     league = game.get("league", {}).get("name", "N/A")
     match = game.get("match", {})
     match_id = match.get("id", "N/A")
@@ -685,9 +748,11 @@ def render_game_card(game: Dict[str, Any], index: int):
     datetime_str = format_datetime(game.get("startTime"))
     best_of = match.get("strategy", {}).get("count", 1)
 
-    # Status
+    # Status com detecção de provável ao vivo
     if state == "inProgress":
         status = "🔴 AO VIVO"
+    elif likely_live:
+        status = "🟡 PROVÁVEL AO VIVO"
     elif state == "unstarted":
         status = "📅 AGENDADO"
     else:
@@ -740,6 +805,7 @@ def render_game_card(game: Dict[str, Any], index: int):
                 "best_of": best_of,
                 "state": state,
                 "datetime": datetime_str,
+                "likely_live": likely_live,
             }
             st.rerun()
 
@@ -751,6 +817,11 @@ def render_home_page():
         unsafe_allow_html=True,
     )
 
+    # Aviso sobre delay da API
+    st.warning(
+        "⚠️ A API pode ter delay. Jogos marcados como 'PROVÁVEL AO VIVO' podem já estar acontecendo."
+    )
+
     # Buscar jogos
     games = get_schedule()
 
@@ -760,7 +831,12 @@ def render_home_page():
 
     # Separar jogos por status
     live_games = [g for g in games if g.get("state") == "inProgress"]
-    scheduled_games = [g for g in games if g.get("state") == "unstarted"]
+    likely_live_games = [g for g in games if g.get("likely_live", False)]
+    scheduled_games = [
+        g
+        for g in games
+        if g.get("state") == "unstarted" and not g.get("likely_live", False)
+    ]
     completed_games = [g for g in games if g.get("state") == "completed"]
 
     # Jogos ao vivo
@@ -770,6 +846,15 @@ def render_home_page():
         for i, game in enumerate(live_games[:4]):  # Máximo 4 jogos
             with cols[i % 2]:
                 render_game_card(game, f"live_{i}")
+        st.markdown("---")
+
+    # Jogos provavelmente ao vivo
+    if likely_live_games:
+        st.markdown("## 🟡 Jogos Provavelmente Ao Vivo")
+        cols = st.columns(min(len(likely_live_games), 2))
+        for i, game in enumerate(likely_live_games[:4]):  # Máximo 4 jogos
+            with cols[i % 2]:
+                render_game_card(game, f"likely_live_{i}")
         st.markdown("---")
 
     # Próximos jogos
@@ -813,8 +898,11 @@ def render_analysis_page():
             f'<h1 class="section-title">🎮 {game_data["team1"]} vs {game_data["team2"]}</h1>',
             unsafe_allow_html=True,
         )
+        status_info = ""
+        if game_data.get("likely_live"):
+            status_info = " (Provável ao vivo)"
         st.caption(
-            f"{game_data['league']} • {game_data.get('datetime', 'Horário não definido')}"
+            f"{game_data['league']} • {game_data.get('datetime', 'Horário não definido')}{status_info}"
         )
 
     # Seleção de mapa
@@ -835,7 +923,7 @@ def render_analysis_page():
     st.markdown("---")
 
     # Buscar draft
-    blue_team, red_team = get_draft_data(game_data["match_id"], current_map)
+    blue_team, red_team = get_draft_data(game_data["match_id"], current_map - 1)
 
     if blue_team and red_team:
         render_betting_analysis(blue_team, red_team, game_data)
