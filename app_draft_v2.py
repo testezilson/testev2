@@ -1,145 +1,150 @@
 import streamlit as st
 import pickle
 import numpy as np
-import pandas as pd
-import warnings
-from sklearn.exceptions import InconsistentVersionWarning
+import os
 
-warnings.filterwarnings("ignore", category=InconsistentVersionWarning)
-
-# ===========================
-# Configuração da página
-# ===========================
+# =============================
+# CONFIGURAÇÃO INICIAL
+# =============================
 st.set_page_config(page_title="LoL Draft Analyzer v2", page_icon="🎮", layout="wide")
 
-# ===========================
-# Funções utilitárias
-# ===========================
-@st.cache_data
+st.title("🎮 LoL Draft Analyzer v2")
+st.markdown("Analise o impacto dos campeões e preveja resultados UNDER/OVER de partidas de League of Legends.")
+
+# =============================
+# FUNÇÕES DE SUPORTE
+# =============================
+@st.cache_resource
 def load_components():
-    with open("lol_under_over_model/trained_models_v2.pkl", "rb") as f:
-        models = pickle.load(f)
-    with open("lol_under_over_model/scaler_v2.pkl", "rb") as f:
-        scaler = pickle.load(f)
-    with open("lol_under_over_model/champion_impacts_v2.pkl", "rb") as f:
-        champion_impacts = pickle.load(f)
-    with open("lol_under_over_model/league_stats_v2.pkl", "rb") as f:
-        league_stats = pickle.load(f)
-    with open("lol_under_over_model/feature_columns_v2.pkl", "rb") as f:
-        feature_cols = pickle.load(f)
+    base_path = "lol_under_over_model"
+
+    def load_pkl(name):
+        with open(os.path.join(base_path, f"{name}_v2.pkl"), "rb") as f:
+            return pickle.load(f)
+
+    models = load_pkl("trained_models")
+    scaler = load_pkl("scaler")
+    champion_impacts = load_pkl("champion_impacts")
+    league_stats = load_pkl("league_stats")
+    feature_cols = load_pkl("feature_columns")
     return models, scaler, champion_impacts, league_stats, feature_cols
 
 
-def calcular_kills_estimados(base_kills, impacto_blue, impacto_red):
-    diff = impacto_blue + impacto_red
-    return round(base_kills + diff, 2)
-
-
-def obter_impacto(champion, league, champion_impacts):
-    try:
-        valor = champion_impacts.get(league, {}).get(champion)
-        if valor is None:
-            return 0.0, True
-        return round(valor, 2), False
-    except Exception:
+def obter_impacto(champion_name, league, champion_impacts):
+    impact = champion_impacts.get(league, {}).get(champion_name)
+    if impact is None:
         return 0.0, True
+    return float(impact), False
 
 
-def calcular_conf(prob):
-    if prob >= 0.7:
+def calcular_kills_estimados(base, impacto_blue, impacto_red):
+    diff = impacto_blue - impacto_red
+    return max(5, round(base + diff, 2))
+
+
+def classificar_confiança(prob):
+    if prob >= 0.75:
         return "High"
-    elif prob >= 0.55:
+    elif prob >= 0.6:
         return "Medium"
     else:
         return "Low"
 
 
-# ===========================
-# Interface principal
-# ===========================
-st.title("🎮 LoL Draft Analyzer v2")
-
+# =============================
+# CARREGAR MODELOS
+# =============================
+st.write("🚀 Carregando modelo...")
 models, scaler, champion_impacts, league_stats, feature_cols = load_components()
+st.success("✅ Modelo carregado com sucesso!")
 
-selected_league = st.selectbox("Selecione a Liga:", list(champion_impacts.keys()))
+# =============================
+# ESTADO INICIAL
+# =============================
+if "blue_picks" not in st.session_state:
+    st.session_state.blue_picks = []
+if "red_picks" not in st.session_state:
+    st.session_state.red_picks = []
+if "input_key" not in st.session_state:
+    st.session_state.input_key = 0
 
-st.write("Digite o nome dos campeões conforme forem sendo escolhidos (ENTER para confirmar).")
+# =============================
+# SELEÇÃO DE LIGA
+# =============================
+selected_league = st.selectbox("Selecione a liga:", list(league_stats.keys()), index=0)
 
-blue_picks, red_picks = [], []
-current_side = "Blue"
+# =============================
+# INPUT DE CAMPEÕES
+# =============================
+st.divider()
+col1, col2 = st.columns(2)
 
-# Inicializa session_state
-if "all_picks" not in st.session_state:
-    st.session_state["all_picks"] = []
+with col1:
+    st.subheader("Blue Side Picks")
+    champ = st.text_input("Digite o campeão (Blue):", key=f"champ_input_{st.session_state.input_key}")
 
-# Entrada incremental
-champ = st.text_input("Digite o campeão:", key="champ_input", on_change=lambda: st.session_state.setdefault("trigger_pick", True))
-
-if st.session_state.get("trigger_pick"):
-    champ_name = st.session_state.champ_input.strip()
-
-    if champ_name:
-        st.session_state.all_picks.append(champ_name)
-
-        # Alternância de sides
-        if len(st.session_state.all_picks) % 2 == 1:
-            current_side = "Blue"
-        else:
-            current_side = "Red"
-
+    if champ:
+        champ_name = champ.strip()
         impact, warn = obter_impacto(champ_name, selected_league, champion_impacts)
+        st.session_state.blue_picks.append((champ_name, impact, warn))
 
-        # Mostra impacto instantâneo
-        side_symbol = "🔵" if current_side == "Blue" else "🔴"
-        msg = f"{side_symbol} {current_side} Side: {champ_name} ({impact:+.2f})"
+        msg = f"🔵 Blue Side: {champ_name} ({impact:+.2f})"
         if warn:
             msg += " ← ⚠️ sem dados suficientes ou nome incorreto"
         st.success(msg)
 
-    # limpa estado de input e trigger
-    st.session_state.champ_input = ""
-    st.session_state.trigger_pick = False
+        st.session_state.input_key += 1
+        st.rerun()
 
+    for i, (champ, impact, warn) in enumerate(st.session_state.blue_picks, start=1):
+        st.write(f"**Blue Pick {i}:** {champ} ({impact:+.2f})" + (" ⚠️" if warn else ""))
 
-# Quando completar 10 picks
-if len(st.session_state.all_picks) == 10:
-    st.write("✅ Draft completo!")
+with col2:
+    st.subheader("Red Side Picks")
+    champ_red = st.text_input("Digite o campeão (Red):", key=f"champ_input_red_{st.session_state.input_key}")
 
-    # Divide sides
-    blue = st.session_state.all_picks[:5]
-    red = st.session_state.all_picks[5:]
+    if champ_red:
+        champ_name = champ_red.strip()
+        impact, warn = obter_impacto(champ_name, selected_league, champion_impacts)
+        st.session_state.red_picks.append((champ_name, impact, warn))
 
-    impacto_blue = sum(obter_impacto(c, selected_league, champion_impacts)[0] for c in blue)
-    impacto_red = sum(obter_impacto(c, selected_league, champion_impacts)[0] for c in red)
+        msg = f"🔴 Red Side: {champ_name} ({impact:+.2f})"
+        if warn:
+            msg += " ← ⚠️ sem dados suficientes ou nome incorreto"
+        st.success(msg)
 
-    # ======== Média base da liga (robusto) ========
-    if isinstance(league_stats, dict):
-        if selected_league in league_stats:
-            stats = league_stats[selected_league]
-            if isinstance(stats, dict):
-                base = stats.get("mean_kills", 28.0)
-            else:
-                base = float(stats)
-        else:
-            base = 28.0
-    else:
-        base = 28.0
+        st.session_state.input_key += 1
+        st.rerun()
 
-    kills_estimados = calcular_kills_estimados(base, impacto_blue, impacto_red)
+    for i, (champ, impact, warn) in enumerate(st.session_state.red_picks, start=1):
+        st.write(f"**Red Pick {i}:** {champ} ({impact:+.2f})" + (" ⚠️" if warn else ""))
 
-    st.markdown(f"⚖️ **Impacto total:** Blue = {impacto_blue:+.2f} | Red = {impacto_red:+.2f}")
-    st.markdown(f"📊 **Média base da liga {selected_league}:** {base:.2f}")
-    st.markdown(f"🎯 **Kills estimados:** {kills_estimados:.2f}")
+# =============================
+# RESULTADO FINAL (quando 10 picks)
+# =============================
+if len(st.session_state.blue_picks) == 5 and len(st.session_state.red_picks) == 5:
+    st.divider()
+    st.success("✅ Draft completo!")
 
-    st.markdown("---")
-    st.markdown("### RESULTADOS COMPLETOS")
+    total_blue = sum(x[1] for x in st.session_state.blue_picks)
+    total_red = sum(x[1] for x in st.session_state.red_picks)
 
-    linhas = [25.5, 26.5, 27.5, 28.5, 29.5, 30.5, 31.5, 32.5]
+    base = league_stats[selected_league]["mean_kills"]
+    kills_estimados = calcular_kills_estimados(base, total_blue, total_red)
+
+    st.markdown(
+        f"""
+        ⚖️ **Impacto total:** Blue = {total_blue:+.2f} | Red = {total_red:+.2f}  
+        📊 **Média base da liga {selected_league}:** {base:.2f}  
+        🎯 **Kills estimados:** {kills_estimados:.2f}
+        """
+    )
+
+    # Simula probabilidades baseadas em kills
+    linhas = np.arange(25.5, 33.0, 1.0)
+    st.markdown("---\n**--- RESULTADOS COMPLETOS ---**")
     for linha in linhas:
-        prob_under = np.clip(1 / (1 + np.exp((kills_estimados - linha) / 2)), 0, 1)
-        conf = calcular_conf(abs(prob_under - 0.5) * 2)
-        bet = "UNDER" if prob_under > 0.5 else "OVER"
-        st.write(f"Linha {linha:5.1f}: {bet:5s} | Prob(UNDER): {prob_under*100:5.1f}% | Confiança: {conf}")
-
-    # Reset
-    st.session_state.all_picks = []
+        prob_under = max(0.05, min(0.95, 1 - abs(kills_estimados - linha) / 10))
+        conf = classificar_confiança(prob_under)
+        escolha = "UNDER" if prob_under > 0.5 else "OVER"
+        st.write(f"Linha {linha:5.1f}: {escolha:5} | Prob(UNDER): {prob_under*100:5.1f}% | Confiança: {conf}")
