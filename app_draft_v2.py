@@ -129,7 +129,13 @@ if len(st.session_state.blue_picks) == 5 and len(st.session_state.red_picks) == 
     total_blue = sum(x[1] for x in st.session_state.blue_picks)
     total_red = sum(x[1] for x in st.session_state.red_picks)
 
-    base = league_stats[selected_league]["mean_kills"]
+    # 🔧 Compatibilidade com diferentes formatos do arquivo league_stats
+    league_info = league_stats.get(selected_league, {})
+    if isinstance(league_info, dict):
+        base = league_info.get("mean_kills", 28.0)
+    else:
+        base = float(league_info) if isinstance(league_info, (int, float)) else 28.0
+
     kills_estimados = calcular_kills_estimados(base, total_blue, total_red)
 
     st.markdown(
@@ -140,7 +146,7 @@ if len(st.session_state.blue_picks) == 5 and len(st.session_state.red_picks) == 
         """
     )
 
-    # Simula probabilidades baseadas em kills
+    # Simula probabilidades baseadas em kills estimados
     linhas = np.arange(25.5, 33.0, 1.0)
     st.markdown("---\n**--- RESULTADOS COMPLETOS ---**")
     for linha in linhas:
