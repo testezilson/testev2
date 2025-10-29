@@ -73,33 +73,33 @@ if "all_picks" not in st.session_state:
     st.session_state["all_picks"] = []
 
 # Entrada incremental
-champ = st.text_input("Digite o campeão:", key="champ_input")
+champ = st.text_input("Digite o campeão:", key="champ_input", on_change=lambda: st.session_state.setdefault("trigger_pick", True))
 
-if champ:
-    st.session_state.all_picks.append(champ.strip())
-    champ_name = champ.strip()
+if st.session_state.get("trigger_pick"):
+    champ_name = st.session_state.champ_input.strip()
 
-    # Alternância de sides
-    if len(st.session_state.all_picks) % 2 == 1:
-        current_side = "Blue"
-    else:
-        current_side = "Red"
+    if champ_name:
+        st.session_state.all_picks.append(champ_name)
 
-    impact, warn = obter_impacto(champ_name, selected_league, champion_impacts)
-    if current_side == "Blue":
-        blue_picks.append((champ_name, impact, warn))
-    else:
-        red_picks.append((champ_name, impact, warn))
+        # Alternância de sides
+        if len(st.session_state.all_picks) % 2 == 1:
+            current_side = "Blue"
+        else:
+            current_side = "Red"
 
-    # Mostra impacto instantâneo
-    side_symbol = "🔵" if current_side == "Blue" else "🔴"
-    msg = f"{side_symbol} {current_side} Side: {champ_name} ({impact:+.2f})"
-    if warn:
-        msg += " ← ⚠️ sem dados suficientes ou nome incorreto"
-    st.success(msg)
+        impact, warn = obter_impacto(champ_name, selected_league, champion_impacts)
 
-    # Reseta input
+        # Mostra impacto instantâneo
+        side_symbol = "🔵" if current_side == "Blue" else "🔴"
+        msg = f"{side_symbol} {current_side} Side: {champ_name} ({impact:+.2f})"
+        if warn:
+            msg += " ← ⚠️ sem dados suficientes ou nome incorreto"
+        st.success(msg)
+
+    # limpa estado de input e trigger
     st.session_state.champ_input = ""
+    st.session_state.trigger_pick = False
+
 
 # Quando completar 10 picks
 if len(st.session_state.all_picks) == 10:
